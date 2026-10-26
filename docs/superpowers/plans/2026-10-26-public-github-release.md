@@ -10,12 +10,12 @@
 
 **Spec:** User request in this chat; AGENTS.md; docs/DEVELOPMENT_STANDARD.md; public visibility explicitly selected by the user.
 
-- [ ] Prepare empty-key configuration, deployment instructions and accurate training/method documentation.
-- [ ] Export and sanitize visible user/assistant development messages; exclude reasoning, tools and local attachments.
-- [ ] Build an allowlisted release snapshot; verify no real configuration, logs or screenshots enter it.
-- [ ] Scan known key values and credential patterns; run existing offline regressions and a no-key startup check.
-- [ ] Obtain independent read-only review of snapshot and documented claims; resolve release blockers.
-- [ ] Publish to wei-smo/evidence-detective after repository availability, then verify commit, assets and empty-key template remotely.
+- [x] Prepare empty-key configuration, deployment instructions and accurate training/method documentation.
+- [x] Export and sanitize visible user/assistant development messages; exclude reasoning, tools and local attachments.
+- [x] Build an allowlisted release snapshot; verify no real configuration, logs or screenshots enter it.
+- [x] Scan known key values and credential patterns; run existing offline regressions and a no-key startup check.
+- [x] Obtain independent read-only review of snapshot and documented claims; resolve release blockers.
+- [x] Publish to wei-smo/evidence-detective after repository availability, then verify commit, assets and empty-key template remotely.
 
 ## Review Focus
 

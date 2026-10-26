@@ -141,3 +141,20 @@ N01第一次浏览器测试脚本在表单提交后因`wait_for_function`缺箭�
 - 证据：`artifacts/startup/startup-20261026.json`；执行者：主智能体。
 - NOT_RUN：本轮未发起元宝搜索或模型查询，未执行功能回归；配置齐全不等于完整调查已通过。
 - 本轮只启动已有项目，未改产品代码。浏览器打开请求已排队。
+
+
+## GitHub公开发布（2026-10-26T18:18:20.736236+08:00）
+
+用户明确要求公开当前版本、方法和脱敏开发对话；目标为 https://github.com/wei-smo/evidence-detective 。本轮未改变搜索/模型供应商、运行门槛或角色图片。
+
+|编号|前提→实际操作→可观察结果|证据/执行者|状态|
+|---|---|---|---|
+|G01|制作允许清单副本→对两个本地真实key及编码变体扫描→99文件、Git索引零命中，无.env.local/data/artifacts/.tmp/账号截图|主智能体；本机artifacts/github-release/20261026-180913/secret-scan.json、git-index-scan.json|PASS|
+|G02|空key模板与完整运行素材→无密钥副本启动→19项检查通过，缺key调查请求503且无外部调用；Docker上下文保留PNG|主智能体；同目录no-key-startup.json|PASS|
+|G03|三个指定会话→仅导出可见用户/助手消息并脱敏→159条，MD+JSONL，明确没有SFT/RL训练|docs/conversations/manifest.json、docs/TRAINING_AND_METHODS.md|PASS|
+|G04|独立只读审查→核对私有路径/对话边界/素材与字体哈希/空key及训练事实→无已发现P0/P1阻塞|独立子智能体method_audit；摘要见RELEASE_VERIFICATION.md|PASS|
+|G05|干净发布副本及远端克隆→Python85项、JS语法/函数检查与19项无key启动→全部通过|主智能体实际命令；同目录remote-checkout-no-key-startup.json|PASS|
+|G06|上传main→重新公开clone并核对树→源码/对话提交16f672758aeeadaf4ac5acda59805487af9d2a18，树beae8dffc9a2b8c1e831a9ee05989268df598990与扫描树相同；远端两key为空|GitHub提交及本机remote-checkout；主智能体|PASS|
+|G07|Docker构建、新真实元宝/推理查询→本轮未执行；不以配置或历史成功替代|发布范围说明|NOT_RUN|
+
+原始密钥仍只在本机，部署者需填写自己的两项API Key；对外监听还需自己的访问口令。历史私有证据目录未随仓库公开。
