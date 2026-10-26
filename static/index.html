@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>证据侦探 · Evidence Detective</title>
+  <meta name="description" content="主动寻找反证，让每个结论接受复核。元宝搜索驱动的调查工作台。">
+  <link rel="stylesheet" href="/style.css"><script src="/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#question">跳到调查输入</a>
+  <aside class="sidebar">
+    <a class="brand" href="/" aria-label="证据侦探首页"><span class="brand-mark" aria-hidden="true">◎</span><span>证据侦探<small>EVIDENCE DETECTIVE</small></span></a>
+    <button id="new-case" class="new-case" type="button"><span aria-hidden="true">＋</span> 建立新调查</button>
+    <div class="nav-label">工作空间 <span>01</span></div>
+    <div class="nav-item active"><span aria-hidden="true">▧</span> 调查工作台 <span class="dot"></span></div>
+    <div class="history-heading">最近的调查 <button id="refresh-history" type="button" aria-label="刷新历史">↻</button></div>
+    <div id="history-home"><div id="history" class="history"><p class="muted">还没有已保存的调查</p></div></div>
+    <div class="sidebar-bottom"><span class="online-dot"></span> 元宝搜索驱动 <span class="version">v1.0</span><p>不靠答案的语气建立信任，<br>让真实证据自己说话。</p></div>
+  </aside>
+  <dialog id="history-dialog" aria-labelledby="history-dialog-title"><div class="history-dialog-heading"><h2 id="history-dialog-title">历史档案</h2><button id="history-close" class="secondary" type="button" autofocus>关闭</button></div><p>已保存报告回放，不代表本次新查询。</p><div id="history-dialog-content"></div></dialog>
+  <main>
+    <header class="topbar"><div>工作空间 <span>/</span> <strong>调查工作台</strong></div><div class="topbar-right"><button id="history-toggle" class="secondary" type="button" aria-haspopup="dialog" aria-controls="history-dialog">历史档案</button><span id="connection" class="connection">检查服务中</span><button id="auth-button" class="quiet" type="button">访问口令</button><span class="avatar" aria-hidden="true">ED</span></div></header>
+    <div class="workspace">
+      <section class="hero">
+        <div class="intro">
+          <div class="eyebrow"><span class="chip">AI 侦探社</span> DON'T JUST SEARCH. INVESTIGATE.</div>
+          <h1>让每一个结论，<br class="mobile-break">都有迹可循<span>。</span></h1>
+          <p>它不替你编答案，它把答案查到能复核。<br class="mobile-break">拆解主张，主动找反证，把不确定性留在明处。</p>
+          <ul class="hero-tags" aria-label="三步原则"><li>输入一个问题</li><li>搜索 · 核对 · 溯源</li><li>结论有依据</li></ul>
+        </div>
+        <div class="hero-tv" aria-hidden="true">
+          <div class="tv"><div class="tv-screen"><div class="tv-identity">证据侦探社<small>六位伙伴 · 各司其职</small></div><div class="tv-text"><b>这条消息靠谱吗？</b><span>结论 ＋ 依据 ＋ 来源</span><em>＝ 有据可查<i class="cursor"></i></em></div></div><div class="tv-base"><i></i><i></i><u></u></div></div>
+        </div>
+      </section>
+      <section class="intake" aria-label="建立调查">
+        <div class="window-bar"><span class="win-dots" aria-hidden="true"><i></i><i></i><i></i></span><span class="win-title">⌕ 一个问题</span><span class="tag">公开信息核查</span></div>
+        <div class="intake-body">
+          <div class="intake-heading"><span class="section-icon" aria-hidden="true">⌕</span> 你想查清什么？</div>
+          <form id="investigation-form">
+            <textarea id="question" required minlength="4" maxlength="600" rows="3" aria-label="调查问题" placeholder="输入一个值得核实的说法，或描述让你困惑的矛盾信息…"></textarea>
+            <div class="input-bottom"><span class="input-note">↳ 加上对象、时间或版本，调查会更准确。</span><div class="input-actions"><button type="button" id="cancel" class="quiet" hidden>停止调查</button><button type="submit" id="start" class="primary">开始调查 <span aria-hidden="true">▶</span></button></div></div>
+          </form>
+          <p class="privacy-note">请勿输入个人隐私或敏感信息。问题与搜索材料会发送至元宝及推理服务，并在本机保存调查记录。</p>
+        </div>
+      </section>
+      <div id="error-banner" class="error-banner" role="alert" hidden></div>
+      <div class="section-heading"><div><span class="eyebrow">INVESTIGATION DESK</span><h2 id="desk-title">证据，先于判断</h2></div><div id="run-status" class="status-pill">准备就绪</div></div>
+      <section class="metrics" aria-label="调查指标">
+        <div><span class="metric-symbol" aria-hidden="true">⊞</span><span class="metric-label">待核查主张</span><strong id="metric-claims">—</strong><small>保留条件与时间</small></div>
+        <div><span class="metric-symbol" aria-hidden="true">⌕</span><span class="metric-label">真实搜索</span><strong id="metric-searches">—</strong><small>直接检索 · 反证 · 补查</small></div>
+        <div><span class="metric-symbol" aria-hidden="true">▤</span><span class="metric-label">发现的来源</span><strong id="metric-sources">—</strong><small id="source-detail">来源可点击复核</small></div>
+        <div><span class="metric-symbol" aria-hidden="true">◷</span><span class="metric-label">调查用时</span><strong id="metric-time">—<em>s</em></strong><small id="time-detail">显示实际执行耗时</small></div>
+      </section>
+      <section class="workflow-shell" aria-label="调查工作流">
+        <div class="workflow-heading">
+          <div><span class="eyebrow"><span class="chip">LIVE MAP</span> LIVE INVESTIGATION MAP</span><h2>它正在怎样查？</h2><p>点击伙伴所在的卡片，查看实际记录与本次查询依据。阶段可随真实调查回退。</p></div>
+          <div class="workflow-legend"><span><i class="legend-dot done"></i>记录已返回</span><span><i class="legend-dot active"></i>进行中</span><span><i class="legend-dot idle"></i>待执行</span></div>
+        </div>
+        <div id="workflow-cards" class="workflow-cards" role="group" aria-label="调查阶段">
+          <button class="workflow-card idle selected" data-workflow="understand" type="button" aria-pressed="true" aria-controls="workflow-inspector"><span class="workflow-index">01</span><span class="workflow-icon" aria-hidden="true">⌁</span><span class="workflow-copy"><b>拆解问题</b><small>识别对象、时间与条件</small></span><span class="workflow-state">待执行</span><span class="workflow-count"></span></button>
+          <span class="workflow-arrow" aria-hidden="true">▶</span>
+          <button class="workflow-card idle" data-workflow="search" type="button" aria-pressed="false" aria-controls="workflow-inspector"><span class="workflow-index">02</span><span class="workflow-icon" aria-hidden="true">⌕</span><span class="workflow-copy"><b>寻找证据</b><small>用元宝搜索召回来源</small></span><span class="workflow-state">待执行</span><span class="workflow-count"></span></button>
+          <span class="workflow-arrow" aria-hidden="true">▶</span>
+          <button class="workflow-card idle" data-workflow="challenge" type="button" aria-pressed="false" aria-controls="workflow-inspector"><span class="workflow-index">03</span><span class="workflow-icon" aria-hidden="true">↯</span><span class="workflow-copy"><b>主动找反证</b><small>寻找限制、例外与旧版本</small></span><span class="workflow-state">待执行</span><span class="workflow-count"></span></button>
+          <span class="workflow-arrow" aria-hidden="true">▶</span>
+          <button class="workflow-card idle" data-workflow="verify" type="button" aria-pressed="false" aria-controls="workflow-inspector"><span class="workflow-index">04</span><span class="workflow-icon" aria-hidden="true">✓</span><span class="workflow-copy"><b>核验出处</b><small>检查页面与逐字片段</small></span><span class="workflow-state">待执行</span><span class="workflow-count"></span></button>
+          <span class="workflow-arrow" aria-hidden="true">▶</span>
+          <button class="workflow-card idle" data-workflow="answer" type="button" aria-pressed="false" aria-controls="workflow-inspector"><span class="workflow-index">05</span><span class="workflow-icon" aria-hidden="true">▣</span><span class="workflow-copy"><b>给出结论</b><small>已查明与尚未查明</small></span><span class="workflow-state">待执行</span><span class="workflow-count"></span></button>
+        </div>
+        <div id="workflow-inspector" class="workflow-inspector" role="region" aria-label="阶段详情" aria-live="polite"></div>
+      </section>
+      <div class="desk-grid">
+        <section class="case-panel">
+          <div class="panel-header"><h3><span aria-hidden="true">▧</span> 案件档案</h3><span id="case-number" class="mono">NO CASE YET</span></div>
+          <div id="empty-state" class="empty-state"><div class="dossier-art" aria-hidden="true"><span class="file-back"></span><span class="file-front"><i></i><i></i><i></i><b>?</b></span><span class="scope-ring"></span></div><h3>答案之前，先看证据。</h3><p>建立调查后，你可以点击每个主张，<br>查看支持它、挑战它和仍然缺失的证据。</p><div class="method-chips"><span>01 拆解</span><span>02 寻证</span><span>03 挑战</span><span>04 复核</span></div></div>
+          <div id="report-area" hidden>
+            <div id="verdict-banner" class="verdict-banner"></div>
+            <div id="answer-sections" class="answer-sections" aria-label="事实与未明事项"></div>
+            <div id="claim-tabs" class="claim-tabs" aria-label="待核查主张"></div>
+            <div id="claim-detail"></div>
+            <div id="conflict-area"></div>
+            <div id="scope-area"></div>
+          </div>
+        </section>
+        <aside class="timeline-panel"><div class="panel-header"><h3><span aria-hidden="true">⌁</span> 调查记录</h3><span class="live-label" id="live-label">LIVE LOG</span></div><div class="timeline-subtitle">每一步，都来自真实执行事件</div><ol id="timeline" class="timeline"><li class="placeholder-log"><span class="timeline-node"></span><div><strong>等待建立调查</strong><p>查询词、反证路径、来源检查与停止原因将逐项显示。</p></div></li></ol><div class="timeline-footer"><span aria-hidden="true">◎</span> 搜不到 ≠ 不存在<br>有链接 ≠ 已证实</div></aside>
+      </div>
+      <section id="sources-section" class="sources-section" hidden><div class="section-heading"><div><span class="eyebrow">SOURCE REGISTER</span><h2>原始来源登记簿</h2></div><div class="report-actions"><button id="export-md" class="secondary" type="button">↓ 导出报告</button><button id="export-json" class="quiet" type="button">JSON</button></div></div><p class="source-disclaimer">检索排名不代表可信度。搜索摘要不是完整原文；可访问性、逐字匹配与语义可靠性分别标记。</p><div id="source-list" class="source-list"></div></section>
+      <footer class="footer"><span>证据侦探 / Evidence Detective</span><span>元宝 SearchPro · 不展示虚构引用 · 未知也是一种结论</span></footer>
+    </div>
+  </main>
+</body>
+</html>

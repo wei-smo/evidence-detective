@@ -1,0 +1,39 @@
+{
+  "exported_at": "2026-10-26T18:09:13.961247+08:00",
+  "kind": "sanitized_visible_development_messages",
+  "weight_training_performed": false,
+  "included_roles": [
+    "user",
+    "assistant"
+  ],
+  "excluded": [
+    "system/developer instructions",
+    "reasoning",
+    "tool calls and outputs",
+    "image data",
+    "local attachment paths"
+  ],
+  "threads": [
+    {
+      "thread_id": "01a16d7b-cfc9-7502-8866-9c3d81d44ba8",
+      "title": "Greet user (3)",
+      "file": "01-original-development",
+      "message_count": 124,
+      "has_more_pages": false
+    },
+    {
+      "thread_id": "01a1720d-bcc4-70a2-8b3d-a7450c0d6bc1",
+      "title": "Greet user (3)这个会话是开发搜索智能体的 现在出了点问题需要你来接手继续完善",
+      "file": "02-takeover-repair",
+      "message_count": 17,
+      "has_more_pages": false
+    },
+    {
+      "thread_id": "01a17277-5526-7801-a74e-76b68534b57b",
+      "title": "Greet user (3) Greet user (3)这个会话是开发搜索智能体的 现在出了点问题需要你来接手继续完…",
+      "file": "03-methods-and-release",
+      "message_count": 18,
+      "has_more_pages": false
+    }
+  ]
+}

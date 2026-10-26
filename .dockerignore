@@ -1,0 +1,15 @@
+.env
+.env.*
+data
+demos
+artifacts
+.git
+__pycache__
+**/__pycache__
+.tmp
+*.log
+*.zip
+*.pem
+*.key
+node_modules
+.venv

@@ -1,0 +1,310 @@
+{
+  "source_path": "static/assets/roles/original.png",
+  "preserved_source": "static\\assets\\roles\\original.png",
+  "source_sha256": "56522d09f1e81569133de4c28c8c96171e8ab6b5163c5e5a8acf1fefbc7fdeb1",
+  "source_size": [
+    1536,
+    1024
+  ],
+  "bbox_convention": "left, top, right exclusive, bottom exclusive",
+  "processing": {
+    "grid": [
+      3,
+      2
+    ],
+    "cell_size": 512,
+    "canvas_size": [
+      256,
+      256
+    ],
+    "visual_height": 224,
+    "resampling": "LANCZOS",
+    "mask": "Largest 8-connected component at alpha>=16, expanded 3 pixels; preserve original RGBA within mask, zero outside. Removes isolated alpha noise without repainting."
+  },
+  "roles": [
+    {
+      "name": "compass",
+      "grid_index_row_major": 0,
+      "cell_bbox_source": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "raw_alpha_bbox_in_cell": [
+        0,
+        27,
+        480,
+        498
+      ],
+      "clean_alpha_bbox_in_cell": [
+        116,
+        71,
+        457,
+        494
+      ],
+      "clean_alpha_bbox_source": [
+        116,
+        71,
+        457,
+        494
+      ],
+      "removed_noise_pixels": 6249,
+      "resize": [
+        181,
+        224
+      ],
+      "offset": [
+        37,
+        16
+      ],
+      "output_alpha_bbox": [
+        37,
+        16,
+        218,
+        240
+      ],
+      "path": "static\\assets\\roles\\compass.png",
+      "sha256": "6e9d2911ee72c12837b70567890095f439ec60c058f01bff09306cc4e2cdd93c"
+    },
+    {
+      "name": "blue",
+      "grid_index_row_major": 1,
+      "cell_bbox_source": [
+        512,
+        0,
+        1024,
+        512
+      ],
+      "raw_alpha_bbox_in_cell": [
+        17,
+        0,
+        496,
+        512
+      ],
+      "clean_alpha_bbox_in_cell": [
+        85,
+        80,
+        395,
+        493
+      ],
+      "clean_alpha_bbox_source": [
+        597,
+        80,
+        907,
+        493
+      ],
+      "removed_noise_pixels": 2998,
+      "resize": [
+        168,
+        224
+      ],
+      "offset": [
+        44,
+        16
+      ],
+      "output_alpha_bbox": [
+        44,
+        17,
+        212,
+        240
+      ],
+      "path": "static\\assets\\roles\\blue.png",
+      "sha256": "19ca02444b01ad2ad9f0bbcfb97f96f4cc27ea60eb083990b1e70bfe1cdad00b"
+    },
+    {
+      "name": "fox",
+      "grid_index_row_major": 2,
+      "cell_bbox_source": [
+        1024,
+        0,
+        1536,
+        512
+      ],
+      "raw_alpha_bbox_in_cell": [
+        11,
+        47,
+        498,
+        512
+      ],
+      "clean_alpha_bbox_in_cell": [
+        12,
+        80,
+        407,
+        493
+      ],
+      "clean_alpha_bbox_source": [
+        1036,
+        80,
+        1431,
+        493
+      ],
+      "removed_noise_pixels": 5564,
+      "resize": [
+        214,
+        224
+      ],
+      "offset": [
+        21,
+        16
+      ],
+      "output_alpha_bbox": [
+        21,
+        16,
+        234,
+        240
+      ],
+      "path": "static\\assets\\roles\\fox.png",
+      "sha256": "a40dfed5c5109800818d320b3c68abd155fb493b6e7d13a8c8974e1516669150"
+    },
+    {
+      "name": "gold",
+      "grid_index_row_major": 3,
+      "cell_bbox_source": [
+        0,
+        512,
+        512,
+        1024
+      ],
+      "raw_alpha_bbox_in_cell": [
+        33,
+        23,
+        510,
+        496
+      ],
+      "clean_alpha_bbox_in_cell": [
+        108,
+        23,
+        415,
+        436
+      ],
+      "clean_alpha_bbox_source": [
+        108,
+        535,
+        415,
+        948
+      ],
+      "removed_noise_pixels": 3364,
+      "resize": [
+        167,
+        224
+      ],
+      "offset": [
+        44,
+        16
+      ],
+      "output_alpha_bbox": [
+        44,
+        16,
+        211,
+        240
+      ],
+      "path": "static\\assets\\roles\\gold.png",
+      "sha256": "721f2fe9e8d0dd051e817a994fff8cdff4b397218040e227c3404cc46f060a8a"
+    },
+    {
+      "name": "violet",
+      "grid_index_row_major": 4,
+      "cell_bbox_source": [
+        512,
+        512,
+        1024,
+        1024
+      ],
+      "raw_alpha_bbox_in_cell": [
+        7,
+        3,
+        512,
+        512
+      ],
+      "clean_alpha_bbox_in_cell": [
+        66,
+        39,
+        438,
+        436
+      ],
+      "clean_alpha_bbox_source": [
+        578,
+        551,
+        950,
+        948
+      ],
+      "removed_noise_pixels": 3819,
+      "resize": [
+        210,
+        224
+      ],
+      "offset": [
+        23,
+        16
+      ],
+      "output_alpha_bbox": [
+        23,
+        16,
+        233,
+        239
+      ],
+      "path": "static\\assets\\roles\\violet.png",
+      "sha256": "ef3054d02d39c0e425d8237835c841bede6cacbc7943316622ecbb43e63a0f94"
+    },
+    {
+      "name": "ink",
+      "grid_index_row_major": 5,
+      "cell_bbox_source": [
+        1024,
+        512,
+        1536,
+        1024
+      ],
+      "raw_alpha_bbox_in_cell": [
+        1,
+        1,
+        494,
+        512
+      ],
+      "clean_alpha_bbox_in_cell": [
+        66,
+        48,
+        371,
+        435
+      ],
+      "clean_alpha_bbox_source": [
+        1090,
+        560,
+        1395,
+        947
+      ],
+      "removed_noise_pixels": 3928,
+      "resize": [
+        177,
+        224
+      ],
+      "offset": [
+        39,
+        16
+      ],
+      "output_alpha_bbox": [
+        39,
+        17,
+        216,
+        240
+      ],
+      "path": "static\\assets\\roles\\ink.png",
+      "sha256": "17ca5dec10b7381e8faedb97afef73a4548c895c6f84d58eddd534fdb893b48d"
+    }
+  ],
+  "contact_sheet": {
+    "path": "artifacts\\roles\\contact-sheet.png",
+    "sha256": "1cca887ec8bde224fb8ba008309fa2ee5e4e2b76fe3156176ec65b2915b7f02e",
+    "actual_sizes": [
+      48,
+      64,
+      96
+    ]
+  },
+  "verification": {
+    "file_geometry_transparency_grid_clearance": "PASS",
+    "independent_visual_review": "NOT_RUN: contact sheet supplied for main agent review",
+    "web_path_access": "NOT_RUN: asset-only task"
+  }
+}

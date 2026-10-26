@@ -1,0 +1,1191 @@
+{
+  "id": "dc8d4631c16a4bb7",
+  "question": "我看到资料说 SQLite 是公有领域，也有资料说使用 SQLite 要买许可证。这两种说法是否冲突，商业使用是否必须付费？",
+  "started_at": "2026-10-24T09:20:16.796349+00:00",
+  "verdict": "证据不足",
+  "summary": "本轮未取得与该主张直接绑定的有效证据；不能由搜索无结果推断主张错误。",
+  "claims": [
+    {
+      "id": "C1",
+      "text": "我看到资料说 SQLite 是公有领域，也有资料说使用 SQLite 要买许可证。这两种说法冲突，商业使用必须付费",
+      "entity": "我看到资料说 SQLite 是公有领域，也有资料说使用 SQLite 要买许可证。这两种说法",
+      "time_scope": "未知",
+      "conditions": "未知",
+      "verdict": "证据不足",
+      "conclusion": "本轮未取得与该主张直接绑定的有效证据；不能由搜索无结果推断主张错误。",
+      "evidence_ids": [],
+      "missing": [
+        "缺少可识别的一手材料或至少两个保守分组后的直接证据来源。",
+        "关键片段尚未全部在实时网页中复现；搜索内容可能滞后或截断。"
+      ],
+      "next_action": "打开相关项目或主办方的一手页面核对具体对象、时间和版本。",
+      "strength": "低 · 搜索内容或来源仍有限"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "SQLite Documentation",
+      "url": "https://www.sqlite.org/docsrc/artifact/9ff8f7b6f3787657",
+      "domain": "www.sqlite.org",
+      "text": "Artifact 9ff8f7b6f37876573debc693be69d8abb666e086: File pages/copyright.in — part of check-in [4fb1b232ad] at 2009-10-26 14:52:14 on branch trunk — Add a \"⟾\" mark after all hyperlinks to external websites. (user: drh, size: 4220) [annotate] [blame] [check-ins using] SQLite Copyright SQLite is in the [http://en.wikipedia.org/wiki/Public_Domain | Public Domain] All of the deliverable code in SQLite has been dedicated to the [http://en.wikipedia.org/wiki/Public_Domain|public domain] by the authors. All code authors, and representatives of the companies they work for, have signed affidavits dedicating their contributions to the public domain and originals of those signed affidavits are stored in a firesafe at the main offices of Hwaci. Anyone is free to copy, modify, publish, use, compile, sell, or distribute the original SQLite code, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means. The previous paragraph applies to the deliverable code in SQLite - those parts of the SQLite library that you actually bundle and ship with a larger application. Portions of the documentation and some code used as part of the build process might fall under other licenses. The details here are unclear. We do not worry about the licensing of the documentation and build code so much because none of these things are part of the core deliverable SQLite library. All of the deliverable code in SQLite has been written from scratch. No code has been taken from other projects or from the open internet. Every line of code can be traced back to its original author, and all of those authors have public domain dedications on file. So the SQLite code base is clean and is uncontaminated with licensed code from other projects. Obtaining An Explicit License To Use SQLite Even though SQLite is in the public domain and does not require a license, some users want to obtain a license anyway. Some reasons for obtaining a license include: You are using SQLite in a jurisdiction that does not recognize the public domain. You are using SQLite in a jurisdiction that does not recognize the right of an author to dedicate their work to the public domain. You want to hold a tangible legal document as evidence that you have the legal right to use and distribute SQLite. Your legal department tells you that you have to purchase a license. If you feel like you really have to purchase a license for SQLite, Hwaci, the company that employs the arc...",
+      "passage": "SQLite Documentation SQLite。Artifact 9ff8f7b6f37876573debc693be69d8abb666e086: File pages/copyright.in — part of check-in [4fb1b232ad] at 2009-10-26 14:52:14 on branch trunk — Add a \"⟾\" mark after all hyperlinks to external websites. (user: drh, size: 4220) [annotate] [blame] [check-ins using] SQLite Copyright SQLite is in the [http://en.wikipedia.org/wiki/Public_Domain | Public Domain] All of the deliverable code in SQLite has been dedicated to the [http://en.wikipedia.org/wiki/Public_Domain|public domain] by the authors. All code authors, and representatives of the companies they work for, have signed affidavits dedicating their contributions to the public domain and originals of those signed affidavits are stored in a firesafe at the main offices of Hwaci. Anyone is free to copy, ...",
+      "date": "未知",
+      "retrieved_at": "2026-10-24T09:20:16.796734+00:00",
+      "site": "www.sqlite.org",
+      "request_id": "d93f160c-71ce-49b5-a341-1433b5ecd579",
+      "query_ids": [
+        "Q1",
+        "Q2",
+        "Q3"
+      ],
+      "publisher_group": "sqlite.org",
+      "independence_group": "sqlite.org",
+      "is_repost": false,
+      "independence_note": "仅按域名与内容相似度分组，不保证真正独立",
+      "source_type": "相关项目一手域名",
+      "primary": true,
+      "digest": "7098316f3bdc21992c271da86a424dbdf8d908cfb5a0a4ed1448a116d24c2e49",
+      "level": "搜索摘要/内容 · 未核验原文",
+      "url_status": "连接失败/超时 · 不代表网页不存在",
+      "http_status": 0,
+      "page_text": "",
+      "fetched_at": "2026-10-24T09:20:22.353467+00:00"
+    },
+    {
+      "id": "S2",
+      "title": "Documentation Source Text",
+      "url": "https://www2.sqlite.org/docsrc/artifact/a9eabafb68b789d7",
+      "domain": "www2.sqlite.org",
+      "text": "Artifact a9eabafb68b789d7ae04f2360e7fcc01ed49457f207bafa95a24318dc496bcbb: hd_keywords {copyright} {public-domain} {license} SQLite Is Public Domain SQLite is in the [http://en.wikipedia.org/wiki/Public_Domain | Public Domain] All of the code and documentation in SQLite has been dedicated to the [http://en.wikipedia.org/wiki/Public_Domain|public domain] by the authors. All code authors, and representatives of the companies they work for, have signed affidavits dedicating their contributions to the public domain and originals of those signed affidavits are stored in a firesafe at the main offices of Hwaci. Anyone is free to copy, modify, publish, use, compile, sell, or distribute the original SQLite code, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means. The previous paragraph applies to the deliverable code and documentation in SQLite - those parts of the SQLite library that you actually bundle and ship with a larger application. Some scripts used as part of the build process (for example the \"configure\" scripts generated by autoconf) might fall under other open-source licenses. Nothing from these build scripts ever reaches the final deliverable SQLite library, however, and so the licenses associated with those scripts should not be a factor in assessing your rights to copy and use the SQLite library. All of the deliverable code in SQLite has been written from scratch. No code has been taken from other projects or from the open internet. Every line of code can be traced back to its original author, and all of those authors have public domain dedications on file. So the SQLite code base is clean and is uncontaminated with licensed code from other projects. Obtaining A License To Use SQLite Even though SQLite is in the public domain and does not require a license, some users want to obtain a license anyway. Some reasons for obtaining a license include: Your company desires warranty of title and/or indemnity against claims of copyright infringement. You are using SQLite in a jurisdiction that does not recognize the public domain. You are using SQLite in a jurisdiction that does not recognize the right of an author to dedicate their work to the public domain. You want to hold a tangible legal document as evidence that you have the legal right to use and distribute SQLite. Your legal department tells you that you have to purchase a license. If you feel like you really need to purchase a license ...",
+      "passage": "Documentation Source Text。Artifact a9eabafb68b789d7ae04f2360e7fcc01ed49457f207bafa95a24318dc496bcbb: hd_keywords {copyright} {public-domain} {license} SQLite Is Public Domain SQLite is in the [http://en.wikipedia.org/wiki/Public_Domain | Public Domain] All of the code and documentation in SQLite has been dedicated to the [http://en.wikipedia.org/wiki/Public_Domain|public domain] by the authors. All code authors, and representatives of the companies they work for, have signed affidavits dedicating their contributions to the public domain and originals of those signed affidavits are stored in a firesafe at the main offices of Hwaci. Anyone is free to copy, modify, publish, use, compile, sell, or distribute the original SQLite code, either in source code form or as a compiled binary, for any ...",
+      "date": "2017/07/10 18:11:17",
+      "retrieved_at": "2026-10-24T09:20:16.796734+00:00",
+      "site": "www2.sqlite.org",
+      "request_id": "d93f160c-71ce-49b5-a341-1433b5ecd579",
+      "query_ids": [
+        "Q1",
+        "Q2",
+        "Q3"
+      ],
+      "publisher_group": "sqlite.org",
+      "independence_group": "sqlite.org",
+      "is_repost": false,
+      "independence_note": "仅按域名与内容相似度分组，不保证真正独立",
+      "source_type": "相关项目一手域名",
+      "primary": true,
+      "digest": "29256b7dd7d1feed23c7aab4d0472f4c82f2050a5b186f158efb44fdad7cc70c",
+      "level": "已读取网页 · 引用是否匹配另行检查",
+      "url_status": "可访问",
+      "http_status": 200,
+      "page_text": "Documentation Source Text: Artifact [a9eabafb68] Documentation Source Text Artifact [a9eabafb68] Login ☰ Home Timeline Branches Tags Tickets Wiki Login Check-ins Using Download Hex Line Numbers Artifact a9eabafb68b789d7ae04f2360e7fcc01ed49457f207bafa95a24318dc496bcbb : File pages/copyright.in — part of check-in [2a08b85198] at 2017-07-10 18:11:17 on branch branch-3.19 — Typo fixes. (user: drh size: 4699) [more...] <title>SQLite Copyright</title> <tcl>hd_keywords {copyright} {public-domain} {license}</tcl> <h2>SQLite Is Public Domain</h2> <div class=\"rightsidebar desktoponly\"> <center> <img src=\"images/nocopy.gif\"><br> SQLite is in the<br> [http://en.wikipedia.org/wiki/Public_Domain | Public Domain] </center> </div> <p> All of the code and documentation in SQLite has been dedicated to the [http://en.wikipedia.org/wiki/Public_Domain|public domain] by the authors. All code authors, and representatives of the companies they work for, have signed affidavits dedicating their contributions to the public domain and originals of those signed affidavits are stored in a firesafe at the main offices of <a href=\"https://www.hwaci.com\">Hwaci</a>. Anyone is free to copy, modify, publish, use, compile, sell, or distribute the original SQLite code, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means. </p> <p> The previous paragraph applies to the deliverable code and documentation in SQLite - those parts of the SQLite library that you actually bundle and ship with a larger application. Some scripts used as part of the build process (for example the \"configure\" scripts generated by autoconf) might fall under other open-source licenses. Nothing from these build scripts ever reaches the final deliverable SQLite library, however, and so the licenses associated with those scripts should not be a factor in assessing your rights to copy and use the SQLite library. </p> <p> All of the deliverable code in SQLite has been written from scratch. No code has been taken from other projects or from the open internet. Every line of code can be traced back to its original author, and all of those authors have public domain dedications on file. So the SQLite code base is clean and is uncontaminated with licensed code from other projects. </p> <div class=\"rightsidebar\"> <form method=\"GET\" action=\"https://www.hwaci.com/cgi-bin/license-step1\"> <input type=\"submit\" value=\"Buy An SQLite License\"> </form> </div> <h2>Obtaining A License To Use SQLite</h2> <p> Even though SQLite is in the public domain and does not require a license, some users want to obtain a license anyway. Some reasons for obtaining a license include: </p> <ul> <li> Your company desires warranty of title and/or indemnity against claims of copyright infringement. <li> You are using SQLite in a jurisdiction that does not recognize the public domain. </li> <li> You are using SQLite in a jurisdiction that does not recognize the right of an author to dedicate their work to the public domain. </li> <li> You want to hold a tangible legal document as evidence that you have the legal right to use and distribute SQLite. </li> <li> Your legal department tells you that you have to purchase a license. </li> </ul> <p> If you feel like you really need to purchase a license for SQLite, <a href=\"https://www.hwaci.com/\">Hwaci</a>, the company that employs all the developers of SQLite, will <a href=\"https://www.hwaci.com/cgi-bin/license-step1\">sell you one</a>. All proceeds from the sale of SQLite licenses are used to fund continuing improvement and support of SQLite. </p> <h2>Contributed Code</h2> <p> In order to keep SQLite completely free and unencumbered by copyright, all new contributors to the SQLite code base are asked to dedicate their contributions to the public domain. If you want to send a patch or enhancement for possible inclusion in the SQLite source tree, please accompany the patch with the following statement: </p> <blockquote><i> The author or authors of this code dedicate any and all copyright interest in this code to the public domain. We make this dedication for the benefit of the public at large and to the detriment of our heirs and successors. We intend this dedication to be an overt act of relinquishment in perpetuity of all present and future rights to this code under copyright law. </i></blockquote> <p> We are not able to accept patches or changes to SQLite that are not accompanied by a statement such as the above. In addition, if you make changes or enhancements as an employee, then a simple statement such as the above is insufficient. You must also send by surface mail a copyright release signed by a company officer. A signed original of the copyright release should be mailed to:</p> <blockquote> Hwaci<br> 6200 Maple Cove Lane<br> Charlotte, NC 28269<br> USA </blockquote> <p> A template copyright release is available in <a href=\"copyright-release.pdf\">PDF</a> or <a href=\"copyright-release.html\">HTML</a>. You can use this release to make future changes. </p> This page was generated in about 0.004s by Fossil 2.29 [912711f044] 2026-10-17 13:14:07",
+      "fetched_at": "2026-10-24T09:20:21.839142+00:00"
+    },
+    {
+      "id": "S3",
+      "title": "SQLite Documentation",
+      "url": "https://www.sqlite.org/docsrc/artifact/43b7e8cdc9e9cbc6",
+      "domain": "www.sqlite.org",
+      "text": "Artifact 43b7e8cdc9e9cbc61385a91a2ed2d2c9121fdc53: File pages/copyright.in — part of check-in [9bab722ac3] at 2016-08-31 17:00:38 on branch mobile-friendly — Further refinement of the home page. (user: drh, size: 4696) [annotate] [blame] [check-ins using] [more...] hd_keywords {copyright} {public-domain} {license} SQLite Is Public Domain SQLite is in the [http://en.wikipedia.org/wiki/Public_Domain | Public Domain] All of the code and documentation in SQLite has been dedicated to the [http://en.wikipedia.org/wiki/Public_Domain|public domain] by the authors. All code authors, and representatives of the companies they work for, have signed affidavits dedicating their contributions to the public domain and originals of those signed affidavits are stored in a firesafe at the main offices of Hwaci. Anyone is free to copy, modify, publish, use, compile, sell, or distribute the original SQLite code, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means. The previous paragraph applies to the deliverable code and documentation in SQLite - those parts of the SQLite library that you actually bundle and ship with a larger application. Some scripts used as part of the build process (for example the \"configure\" scripts generated by autoconf) might fall under other open-source licenses. Nothing from these build scripts ever reaches the final deliverable SQLite library, however, and so the licenses associated with those scripts should not be a factor in assessing your rights to copy and use the SQLite library. All of the deliverable code in SQLite has been written from scratch. No code has been taken from other projects or from the open internet. Every line of code can be traced back to its original author, and all of those authors have public domain dedications on file. So the SQLite code base is clean and is uncontaminated with licensed code from other projects. Obtaining An License To Use SQLite Even though SQLite is in the public domain and does not require a license, some users want to obtain a license anyway. Some reasons for obtaining a license include: Your company desires warranty of title and/or indemnity against claims of copyright infringement. You are using SQLite in a jurisdiction that does not recognize the public domain. You are using SQLite in a jurisdiction that does not recognize the right of an author to dedicate their work to the public domain. You want to hold a tangible legal document as e...",
+      "passage": "Documentation Source Text SQLite。Artifact 43b7e8cdc9e9cbc61385a91a2ed2d2c9121fdc53: File pages/copyright.in — part of check-in [9bab722ac3] at 2016-08-31 17:00:38 on branch mobile-friendly — Further refinement of the home page. (user: drh, size: 4696) [annotate] [blame] [check-ins using] [more...] hd_keywords {copyright} {public-domain} {license} SQLite Is Public Domain SQLite is in the [http://en.wikipedia.org/wiki/Public_Domain | Public Domain] All of the code and documentation in SQLite has been dedicated to the [http://en.wikipedia.org/wiki/Public_Domain|public domain] by the authors. All code authors, and representatives of the companies they work for, have signed affidavits dedicating their contributions to the public domain and originals of those signed affidavits are stored in a fi...",
+      "date": "未知",
+      "retrieved_at": "2026-10-24T09:20:16.796734+00:00",
+      "site": "www.sqlite.org",
+      "request_id": "d93f160c-71ce-49b5-a341-1433b5ecd579",
+      "query_ids": [
+        "Q1"
+      ],
+      "publisher_group": "sqlite.org",
+      "independence_group": "sqlite.org",
+      "is_repost": true,
+      "independence_note": "与 S2 存在出处标注或高度相似内容，保守合并计数",
+      "source_type": "相关项目一手域名",
+      "primary": true,
+      "digest": "28fe8c2c143e762639788e72df6fdcb07fef74374cdc1b6172f0c67e45dfff33",
+      "level": "搜索摘要/内容 · 未核验原文",
+      "url_status": "连接失败/超时 · 不代表网页不存在",
+      "http_status": 0,
+      "page_text": "",
+      "fetched_at": "2026-10-24T09:20:22.087968+00:00"
+    },
+    {
+      "id": "S4",
+      "title": "SQLite Documentation",
+      "url": "https://www.sqlite.org/docsrc/artifact/0984569ea8619c5a",
+      "domain": "www.sqlite.org",
+      "text": "SQLite Copyright SQLite Copyright SQLite is in the Public Domain All of the deliverable code in SQLite has been dedicated to the public domain by the authors.All code authors, and representatives of the companies they work for,have signed affidavits dedicating their contributions tothe public domain and originals ofthose signed affidavits are stored in a firesafe at the main officesof Hwaci .Anyone is free to copy, modify, publish, use, compile, sell, or distributethe original SQLite code, either in source code form or as a compiled binary,for any purpose, commercial or non-commercial, and by any means. The previous paragraph applies to the deliverable code in SQLite - those parts of the SQLite library that you actually bundle andship with a larger application. Portions of the documentation andsome code used as part of the build process might fall underother licenses. The details here are unclear. We do not worryabout the licensing of the documentation and build code so muchbecause none of these things are part of the core deliverableSQLite library. All of the deliverable code in SQLite has been written from scratch.No code has been taken from other projects or from the openinternet. Every line of code can be traced back to its originalauthor, and all of those authors have public domain dedicationson file. So the SQLite code base is clean and isuncontaminated with licensed code from other projects. Obtaining An Explicit License To Use SQLite Even though SQLite is in the public domain and does not requirea license, some users want to obtain a license anyway. Some reasonsfor obtaining a license include: You are using SQLite in a jurisdiction that does not recognize the public domain. You are using SQLite in a jurisdiction that does not recognize the right of an author to dedicate their work to the public domain. You want to hold a tangible legal document as evidence that you have the legal right to use and distribute SQLite. Your legal department tells you that you have to purchase a license. If you feel like you really have to purchase a license for SQLite,<a href=...",
+      "passage": "SQLite Documentation SQLite。SQLite CopyrightSQLite Copyright SQLite is in thePublic Domain All of the deliverable code in SQLite has been dedicated to thepublic domainby the authors.All code authors, and representatives of the companies they work for,have signed affidavits dedicating their contributions tothe public domain and originals ofthose signed affidavits are stored in a firesafe at the main officesof Hwaci.Anyone is free to copy, modify, publish, use, compile, sell, or distributethe original SQLite code, either in source code form or as a compiled binary,for any purpose, commercial or non-commercial, and by any means. The previous paragraph applies to the deliverable code in SQLite - those parts of the SQLite library that you actually bundle ands...",
+      "date": "未知",
+      "retrieved_at": "2026-10-24T09:20:16.796734+00:00",
+      "site": "www.sqlite.org",
+      "request_id": "d93f160c-71ce-49b5-a341-1433b5ecd579",
+      "query_ids": [
+        "Q1"
+      ],
+      "publisher_group": "sqlite.org",
+      "independence_group": "sqlite.org",
+      "is_repost": false,
+      "independence_note": "仅按域名与内容相似度分组，不保证真正独立",
+      "source_type": "相关项目一手域名",
+      "primary": true,
+      "digest": "947c24f626ed0112cb1d5458d9937f767d5668ffbb102b42feb83d954135ae4d",
+      "level": "搜索摘要/内容 · 未核验原文",
+      "url_status": "连接失败/超时 · 不代表网页不存在",
+      "http_status": 0,
+      "page_text": "",
+      "fetched_at": "2026-10-24T09:20:23.383850+00:00"
+    },
+    {
+      "id": "S5",
+      "title": "SQLite Warranty Of Title",
+      "url": "https://sqlite.org/purchase/license",
+      "domain": "sqlite.org",
+      "text": "The core SQLite database software is in the public domain. No license is necessary to use SQLite or to build SQLite into your products. However, licenses are available to satisfy the following needs: You want indemnity against claims of copyright infringement. You are using SQLite in a jurisdiction that does not recognize the public domain. You are using SQLite in a jurisdiction that does not recognize the right of authors to dedicate their work to the public domain. You want to hold a tangible legal document as evidence that you have the legal right to use and distribute SQLite. Your legal department tells you that you have to purchase a license. Because the SQLite code is in the public domain, \"license\" is not quite the right word to describe this product. A more accurate description is \"Warranty of Title\". This product is a legal document that certifies that the SQLite software is an original work and that the authors of SQLite have dedicated their work to the public domain. The doc...",
+      "passage": "SQLite Warranty Of Title SQLite。The core SQLite database software is in the public domain. No license is necessary to use SQLite or to build SQLite into your products. However, licenses are available to satisfy the following needs: You want indemnity against claims of copyright infringement. You are using SQLite in a jurisdiction that does not recognize the public domain. You are using SQLite in a jurisdiction that does not recognize the right of authors to dedicate their work to the public domain. You want to hold a tangible legal document as evidence that you have the legal right to use and distribute SQLite. Your legal department tells you that you have to purchase a license. Because the SQLite code is in the public domain, \"license\" is not quite the right word to describe this product....",
+      "date": "未知",
+      "retrieved_at": "2026-10-24T09:20:16.796734+00:00",
+      "site": "sqlite.org",
+      "request_id": "d93f160c-71ce-49b5-a341-1433b5ecd579",
+      "query_ids": [
+        "Q1",
+        "Q2"
+      ],
+      "publisher_group": "sqlite.org",
+      "independence_group": "sqlite.org",
+      "is_repost": false,
+      "independence_note": "仅按域名与内容相似度分组，不保证真正独立",
+      "source_type": "相关项目一手域名",
+      "primary": true,
+      "digest": "1fdbe95192aefa9cbca78057f0409a12ee4261dceed0bd2863baf6f205630120",
+      "level": "搜索摘要/内容 · 未核验原文",
+      "url_status": "未检查",
+      "http_status": 0,
+      "page_text": "",
+      "fetched_at": ""
+    },
+    {
+      "id": "S6",
+      "title": "Sustainability of Digital Formats: Planning for Library of Congress Collections",
+      "url": "https://loc.gov/preservation/digital/formats/fdd/fdd000461.shtml",
+      "domain": "loc.gov",
+      "text": "SQLite, Version 3 **Format Description Properties ** ID: fdd000461 Short name: SQLite_3 Content categories: database, dataset Format Category: file-format Other facets: unitary, binary, structured, symbolic Last significant FDD update: 2024-05-07 Draft status: Preliminary Identification and description Full name SQLite, Version 3 Description SQLite, version 3, is the file format used as the publicly documented native format for the SQLite database engine since June 2004. Software and associated documentation are available at https://www.sqlite.org/. The code, software, and accompanying documentation have been dedicated to the public domain. SQLite is an embedded SQL database engine that requires no configuration and reads and writes directly to ordinary disk files. A complete SQL database with tables, indexes, triggers, and views, is contained in a single disk file. The engine, and thus the file format, support a full-featured SQL implementation. The database file format, referred to here as \"SQLite_3\", is cross-platform, transferable between 32-bit and 64-bit systems or between big-endian and little-endian architectures. These features make SQLite_3 a popular choice as an application file format. See Adoption under Sustainability Factors below for examples of the many operating systems and software applications in which it is distributed or used. SQLite is not directly comparable to client/server SQL database engines such as MySQL, Oracle, PostgreSQL, or SQL Server. They are designed to implement a shared repository of enterprise data; SQLite is designed to provide local data storage for individual applications. See Appropriate Uses For SQLite for more detail on when SQLite is appropriate and examples of when a client/server SQL database engine would be more appropriate. The main SQLite_3 database file consists of one or more pages. All pages within the same database are the same size. The size of a page in bytes is a power of two between 512 and 65536 inclusive. The page size for a database file is indicated by the 2-byte integer located at an offset of 16 bytes from the beginning of the database file. The theoretical maximum size for an SQLite_3 database file is about 140 terabytes; typically, the file size limit of the underlying filesystem or hardware is the practical constraint. The smallest SQLite_3 database is a single 512-byte page. Every page in an SQLite_3 database file is of a particular type: A b-tree page. The b-tree pages hold the main datab...",
+      "passage": "Sustainability of Digital Formats: Planning for Library of Congress Collections Library of Congress。 a code to indicate whether the database is running with write ahead logging (WAL); and codes that indicate whether the database is configured for vacuuming. Production phase Primarily a middle-state format, typically in active use for recording transactions. Relationship to other formats Has earlier version File formats used by SQLite version 1.0.x (initial release in August 2000) and version 2.x (initial release in September 2001), not described separately on this website at this time. Has subtype GeoPackage_1_0, GeoPackage Encoding Standard (OGC), version 1.0 Local use LC experience or existing holdings The Library of Congress has a small amount of SQLite files in its collections. LC pref...",
+      "date": "2024/05/07 00:00:00",
+      "retrieved_at": "2026-10-24T09:20:16.796734+00:00",
+      "site": "loc.gov",
+      "request_id": "d93f160c-71ce-49b5-a341-1433b5ecd579",
+      "query_ids": [
+        "Q1"
+      ],
+      "publisher_group": "loc.gov",
+      "independence_group": "loc.gov",
+      "is_repost": false,
+      "independence_note": "仅按域名与内容相似度分组，不保证真正独立",
+      "source_type": "公开网页 · 身份待核验",
+      "primary": false,
+      "digest": "3967c930ed848a7ef1d329fd5196080a9846c5cdf6c358fa281d1dcf03103c53",
+      "level": "搜索摘要/内容 · 未核验原文",
+      "url_status": "未检查",
+      "http_status": 0,
+      "page_text": "",
+      "fetched_at": ""
+    },
+    {
+      "id": "S7",
+      "title": "專業支援與延伸產品",
+      "url": "http://sqlite.dev.org.tw/prosupport.html",
+      "domain": "sqlite.dev.org.tw",
+      "text": "專業支援與延伸產品 支援 (詳情如下) 1. **公開論壇。**來自全球專家社群的協助與建議。 免費 更多資訊 最新文章 2. **年度維護訂閱。**來自 SQLite 開發人員的私人專業電子郵件建議。 $1500/年 更多資訊 購買 3. **技術支援。**來自 SQLite 開發人員的高優先順序電子郵件與電話支援。可選擇保證回應時間。 $8K-85K/年 更多資訊 索取報價 4. **SQLite Consortium 會員資格。**包含現場拜訪與存取所有專有延伸功能與測試套件的高階企業支援。 $120K/年 更多資訊 索取報價 **公開論壇。**來自全球專家社群的協助與建議。 費用:免費 更多資訊 最新文章 **年度維護訂閱。**來自 SQLite 開發人員的私人專業電子郵件建議。 費用:$1500/年 更多資訊 購買 **技術支援。**來自 SQLite 開發人員的高優先順序電子郵件與電話支援。可選擇保證回應時間。 費用:$8K-85K/年 更多資訊 索取報價 **SQLite Consortium 會員資格。**包含現場拜訪與存取所有專有延伸功能與測試套件的高階企業支援。 費用:$120K/年 更多資訊 索取報價 授權 (詳情如下) 5. **SQLite 授權。**SQLite 原始碼的標題保證與永久使用權。 $6000 一次性費用 更多資訊 購買 6. **SQLite 加密延伸功能 (SEE) 原始碼。**可取代公有領域 SQLite C 原始碼的插入式替換,具有讀取/寫入 AES 加密資料庫的額外功能。 $2000 一次性費用 更多資訊 購買 7. **SQLite 加密延伸功能 (SEE) for System.Data.SQLite。**用於搭配公有 System.Data.SQLite NuGet 套件的授權證書檔案,允許使用 SQLite 加密延伸功能。 $2500/年 更多資訊 購買 8. 壓縮且加密的唯讀資料庫 (CEROD)。 可取代公開領域 SQLite 原始碼,並具備額外功能,可讀取已壓縮且加密的資料庫。 $2000 一次性費用 更多資訊 立即購買! 9. ZIPVFS 讀寫壓縮資料庫擴充功能。 ZIPVFS 擴充功能會在資料寫入磁碟時自動壓縮並加密資料,並在讀取時解壓縮並解密資料。 $4000 一次性費用 更多資訊 立即購買! **SQLite 授權。**SQLite 原始碼的標題保證與永久使用權。 費用:$6000 一次性費用 更多資訊 購買 **SQLite 加密延伸功能 (SEE) 原始碼。**可取代公有領域 SQLite C 原始碼的插入式替換,具有讀取/寫入 AES 加密資料庫的額外功能。 費用:$2000 一次性費用 更多資訊 購買 **SQLite 加密延伸功能 (SEE) for System.Data.SQLite。**用於搭配公有 System.Data.SQLite NuGet 套件的授權證書檔案,允許使用 SQLite 加密延伸功能。 費用:$2500/年 更多資訊 購買 壓縮且加密的唯讀資料庫 (CEROD)。 可取代公開領域 SQLite 原始碼,並具備額外功能,可讀取已壓縮且加密的資料庫。 費用:$2000 一次性費用 更多資訊 立即購買! ZIPVFS 讀寫壓縮資料庫擴充功能。 ZIPVFS 擴充功能會在資料寫入磁碟時自動壓縮並加密資料,並在讀取時解壓縮並解密資料。 費用:$4000 一次性費用 更多資訊 立即購買! 特殊服務 (以下詳細說明) 10. TH3 測試支援。 TH3 測試架構 是 SQLite 的航空級測試套件。SQLite 開發人員可以根據客戶規格,在特殊硬體和/或使用特殊編譯時期選項上執行 TH3,無論是遠端或客戶端。此服務的定價依需求而定,逐案報價。 來電 更多資訊 索取報價 TH3 測試支援。 TH3 測試架構 是 SQLite 的航空級測試套件。SQLite 開發人員可以根據客戶規格,在特殊硬體和/或使用特殊編譯時期選項上執行 TH3,無論是遠端或客戶端。此服務的定價依需求而定,逐案報價。 費用:來電 更多資訊 索取報價 進一步資訊 SQLite 是免費的,而且運作良好。大多數人使用 SQLite,而不需要任何類型的授權或支援。 可在公開的 SQLite 論壇 上獲得免費的 SQLite 支援。論壇由龐大的專家社群監控,包括 SQLite 核心開發團隊,他們能夠解決您可能會遇到的任何 SQLite 問題。 如果您不希望在公開論壇上討論您的問題,年度維護訂閱或「AMS」可能更能滿足您的需求。AMS 讓您有權直接透過 SQLite 開發人員獲得私人電子郵件支援。AMS 的支援等級與公開論壇提供的支援類似,但 AMS 包含單方面的保密承諾,因此透過 AMS,您可以私下與 SQLite 開發人員討論您的問題,而不用讓全世界都看到。AMS 每年的費用為 1500 美元。 對於有更進階支援需求的使用者,可以選擇技術支援合約。技術支援合約會根據每個客戶的個別需求進行客製化,但通常會包含直接電話支援,以及優先處理問題和錯誤。保證回應時間可作為選項提供。技術支援的費用會有所不同,但通常在每年 8000 美元到 35000 美元之間。 如果 SQLite 對您的公司來說是「任務關鍵」的,那麼您可能想要成為SQLite 聯盟成員。SQLite 聯盟是由贊助 SQLite 持續開發的公司所組成的合作組織,以換取企業級技術支援、SQLite 開發人員的現場拜訪、無限制存取所有授權產品,以及強有力的保證,確保 SQLite 將會持續留在公有領域,保持免費和獨立,而且不會受到競爭對手的控制。 軟體授權 SQLite 原始碼屬於公有領域,任何人都可以免費使用,且不限於任何目的。不需要任何授權。但是,有些使用者希望取得授權,以便他們可以取得所有權保證,或者只是因為他們的公司律師說他們需要。針對此目的,提供核心 SQLit...",
+      "passage": "專業支援與延伸產品。 可在公開的 SQLite 論壇 上獲得免費的 SQLite 支援。論壇由龐大的專家社群監控,包括 SQLite 核心開發團隊,他們能夠解決您可能會遇到的任何 SQLite 問題。 如果您不希望在公開論壇上討論您的問題,年度維護訂閱或「AMS」可能更能滿足您的需求。AMS 讓您有權直接透過 SQLite 開發人員獲得私人電子郵件支援。AMS 的支援等級與公開論壇提供的支援類似,但 AMS 包含單方面的保密承諾,因此透過 AMS,您可以私下與 SQLite 開發人員討論您的問題,而不用讓全世界都看到。AMS 每年的費用為 1500 美元。 對於有更進階支援需求的使用者,可以選擇技術支援合約。技術支援合約會根據每個客戶的個別需求進行客製化,但通常會包含直接電話支援,以及優先處理問題和錯誤。保證回應時間可作為選項提供。技術支援的費用會有所不同,但通常在每年 8000 美元到 35000 美元之間。 如果 SQLite 對您的公司來說是「任務關鍵」的,那麼您可能想要成為SQLite 聯盟成員。SQLite 聯盟是由贊助 SQLite 持續開發的公司所組成的合作組織,以換取企業級技術支援、SQLite 開發人員的現場拜訪、無限制存取所有授權產品,以及強有力的保證,確保 SQLite 將會持續留在公有領域,保持免費和獨立,而且不會受到競爭對手的控制。 軟體授權 SQLite 原始碼屬於公有領域,任何人都可以免費使用,且不限於任何目的。不需要任何授權。但是,有些使用者希望取得授權,以便他們可以取得所有權保證,或者只是因為他們的公司律師說他們需要。針對此目的,提供核心 SQLite 原始碼的永久授權和所有權保證。 SQLite 加密擴充套件 (SEE)、ZIPVFS 擴充套件 和 壓縮和加密唯讀資料庫 (CEROD) 擴充套件是 SQLite 的增強版本,可處理加密和/...",
+      "date": "2023/10/10 17:29:48",
+      "retrieved_at": "2026-10-24T09:20:16.796734+00:00",
+      "site": "sqlite.dev.org.tw",
+      "request_id": "d93f160c-71ce-49b5-a341-1433b5ecd579",
+      "query_ids": [
+        "Q1"
+      ],
+      "publisher_group": "org.tw",
+      "independence_group": "org.tw",
+      "is_repost": false,
+      "independence_note": "仅按域名与内容相似度分组，不保证真正独立",
+      "source_type": "公开网页 · 身份待核验",
+      "primary": false,
+      "digest": "6e261c9a61f4ef3889c25a8ed138e385cc7976550098ba20cab2ce53ba806c02",
+      "level": "搜索摘要/内容 · 未核验原文",
+      "url_status": "未检查",
+      "http_status": 0,
+      "page_text": "",
+      "fetched_at": ""
+    },
+    {
+      "id": "S8",
+      "title": "SQLite 的獨特功能",
+      "url": "https://sqlite.dev.org.tw/different.html",
+      "domain": "sqlite.dev.org.tw",
+      "text": "SQLite 的獨特功能 本頁重點介紹 SQLite 的一些非比尋常的特性,這些特性使 SQLite 與許多其他 SQL 資料庫引擎不同。 零設定 SQLite 在使用前不需要「安裝」。沒有「設定」程序。沒有需要啟動、停止或設定的伺服器行程。不需要管理員建立新的資料庫執行個體或指派使用者存取權限。SQLite 不使用設定檔。不需要執行任何操作來告知系統 SQLite 正在執行。系統崩潰或電源故障後無需進行任何復原操作。沒有任何需要疑難排解的地方。 SQLite 即可使用。 其他更常見的資料庫引擎在啟動後運行良好。但進行初始安裝和設定可能會非常複雜。 無伺服器 (另請參閱無伺服器文件頁面。) 大多數 SQL 資料庫引擎都是作為單獨的伺服器行程來實作的。想要存取資料庫的程式使用某種行程間通訊(通常是 TCP/IP)與伺服器通訊,以將請求傳送到伺服器並接收結果。SQLite 並非如此運作。使用 SQLite 時,想要存取資料庫的行程會直接從磁碟上的資料庫檔案讀取和寫入。沒有中間伺服器行程。 無伺服器架構有利有弊。主要優點是不需要安裝、設定、初始化、管理和疑難排解單獨的伺服器行程。這是 SQLite 成為「零設定」資料庫引擎的原因之一。使用 SQLite 的程式在執行前不需要管理支援來設定資料庫引擎。任何能夠存取磁碟的程式都能夠使用 SQLite 資料庫。 另一方面,使用伺服器的資料庫引擎可以更好地防護用戶端應用程式中的錯誤 - 用戶端中的雜散指標不會損壞伺服器上的記憶體。而且由於伺服器是單個持續性行程,因此它能夠更精確地控制資料庫存取,從而實現更細緻的鎖定和更好的並行性。 大多數 SQL 資料庫引擎都是基於用戶端/伺服器架構的。在無伺服器架構的資料庫引擎中,據作者所知,SQLite 是唯一允許多個應用程式同時存取同一個資料庫的引擎。 單一資料庫檔案 SQLite 資料庫是一個單獨的普通磁碟檔案,可以位於目錄階層結構中的任何位置。如果 SQLite 可以讀取磁碟檔案,那麼它就可以讀取資料庫中的任何內容。如果磁碟檔案及其目錄是可寫入的,那麼 SQLite 可以更改資料庫中的任何內容。資料庫檔案可以輕鬆複製到 USB 隨身碟或透過電子郵件共用。 其他 SQL 資料庫引擎傾向於將資料儲存為大量的檔案集合。通常這些檔案位於只有資料庫引擎本身才能存取的標準位置。這使得資料更安全,但也使得存取更加困難。一些 SQL 資料庫引擎提供直接寫入磁碟並繞過檔案系統的選項。這提高了效能,但代價是相當大的設定和維護複雜性。 穩定的跨平台資料庫檔案 SQLite 的檔案格式具備跨平台特性。在一台機器上寫入的資料庫檔案可以複製到不同架構的另一台機器上使用。大端序或小端序、32 位元或 64 位元都無關緊要。所有機器都使用相同的檔案格式。此外,開發人員承諾保持檔案格式的穩定性和向下相容性,因此較新版本的 SQLite 可以讀寫較舊的資料庫檔案。 大多數其他 SQL 資料庫引擎在從一個平台遷移到另一個平台時,以及通常在升級到較新版本的軟體時,都需要您傾印和還原資料庫。 精簡 經過大小最佳化後,啟用所有功能的完整 SQLite 函式庫大小不到 1MB(在 ix86 上使用 GNU 編譯器套件中的「size」工具測量)。可以在編譯時停用不需要的功能,以進一步縮減函式庫的大小。 大多數其他 SQL 資料庫引擎都比這大得多。IBM 宣稱其最近發布的 CloudScape 資料庫引擎「僅」是一個 2MB 的 jar 檔案——即使壓縮後也比 SQLite 大一個數量級!Firebird 宣稱其用戶端函式庫只有 350KB。這與 SQLite 的大小相同,甚至不包含資料庫引擎。Oracle 的 Berkeley DB 函式庫為 450KB,它省略了 SQL 支援,僅為程式設計師提供簡單的鍵/值對。 顯式類型 大多數 SQL 資料庫引擎使用靜態類型。資料類型與表格中的每一欄關聯,並且只允許將特定資料類型的值儲存在該欄中。SQLite 放寬了此限制,它使用顯式類型。在顯式類型中,資料類型是值本身的屬性,而不是儲存值的欄的屬性。因此,SQLite 允許使用者將任何資料類型的任何值儲存到任何欄中,而不管該欄的宣告類型為何。(此規則有一些例外:INTEGER PRIMARY KEY 欄只能儲存整數。並且 SQLite 會嘗試在可能的情況下將值強制轉換為欄的宣告資料類型。) 據我們所知,SQL 語言規範允許使用顯式類型。儘管如此,大多數其他 SQL 資料庫引擎都是靜態類型的,因此有些人認為使用顯式類型是 SQLite 中的一個錯誤。但 SQLite 的作者堅信這是一個功能。在 SQLite 中使用顯式類型是一個深思熟慮的設計決策,實踐證明,它使 SQLite 更可靠且更易於使用,尤其是在與動態類型程式語言(例如 Tcl 和 Python)結合使用時。 可變長度記錄 大多數其他 SQL 資料庫引擎會為大多數表格中的每一列分配固定數量的磁碟空間。它們使用特殊技巧來處理長度可能變化很大的 BLOB 和 CLOB。但對於大多數表格,如果您將一欄宣告為 VARCHAR(100),則無論您實際儲存在該欄中的資訊量有多少,資料庫引擎都會分配 100 個位元組的磁碟空間。 相反,SQLite 只使用實際需要的磁碟空間來儲存列中的資訊。如果您在 VARCHAR(100) 欄中儲存單個字元,則只會消耗一個位元組的磁碟空間。(實際上是兩個位元組——在每一欄的開頭有一些額外開銷,用於記錄其資料類型和長度。) SQLite 使用可變長度記錄有許多優點。顯然,它會產生更小的資料庫檔案。它還可以使資料庫運行得更快,因為需要在磁碟之間移動的資訊更少。而且,使用可變長度記錄使 SQLite 可以採用顯式類型而不是靜態類型。 可讀的原始程式碼 SQLite 的原始程式碼設計為可讀性高,一般程式設...",
+      "passage": "SQLite 的獨特功能。資料庫使用者可以透過在查詢前面加上 虛擬機器語言 的 EXPLAIN 關鍵字來檢視這個程式。 在 SQLite 中使用虛擬機器對函式庫的開發帶來很大的好處。虛擬機器在 SQLite 的前端(解析 SQL 陳述式並產生虛擬機器碼的部分)和後端(執行虛擬機器碼並計算結果的部分)之間提供了一個清晰、明確的連接點。虛擬機器允許開發人員以易於閱讀的形式清楚地看到 SQLite 嘗試對其編譯的每個陳述式執行哪些操作,這對除錯有極大的幫助。根據編譯方式,SQLite 還能夠追蹤虛擬機器的執行 - 輸出每個虛擬機器指令及其執行時的結果。 公共領域 SQLite 的原始碼屬於公共領域。核心原始碼的任何部分均未主張版權。(說明文件和測試程式碼則不同 - 某些說明文件和測試邏輯受開放原始碼授權的規範。)所有 SQLite 核心軟體的貢獻者都已簽署了明確放棄程式碼版權的聲明。這意味著任何人都可以合法地對 SQLite 原始碼進行任何操作。 還有其他 SQL 資料庫引擎具有自由的授權,允許廣泛且自由地使用程式碼。但這些其他引擎仍然受版權法的約束。SQLite 的不同之處在於,版權法根本不適用於它。 其他 SQL 資料庫引擎的原始碼檔案通常以描述您檢視和複製該檔案的合法權利的註釋開頭。SQLite 原始碼不包含授權,因為它不受版權的約束。SQLite 原始碼沒有授權,而是提供祝福: 願你行善勿作惡 願你寬恕自己並寬恕他人 願你樂於分享,永不貪得無厭 SQL 語言擴充功能 SQLite 提供了許多其他資料庫引擎通常沒有的 SQL 語言增強功能。上述已提及 EXPLAIN 關鍵字和顯式類型。SQLite 還提供了一些陳述式,例如 REPLACE 和 ON CONFLICT 子句,可以增強對約束衝突解決的控制。SQLite 支援 ATTACH 和 DETACH 命令,允許在同一個查...",
+      "date": "2024/05/08 11:54:12",
+      "retrieved_at": "2026-10-24T09:20:16.796734+00:00",
+      "site": "sqlite.dev.org.tw",
+      "request_id": "d93f160c-71ce-49b5-a341-1433b5ecd579",
+      "query_ids": [
+        "Q1",
+        "Q2"
+      ],
+      "publisher_group": "org.tw",
+      "independence_group": "org.tw",
+      "is_repost": false,
+      "independence_note": "仅按域名与内容相似度分组，不保证真正独立",
+      "source_type": "公开网页 · 身份待核验",
+      "primary": false,
+      "digest": "c1b67fc6ab9e9c29027908ebd2e41c4eceb5033572017527ba25038879063421",
+      "level": "搜索摘要/内容 · 未核验原文",
+      "url_status": "未检查",
+      "http_status": 0,
+      "page_text": "",
+      "fetched_at": ""
+    },
+    {
+      "id": "S9",
+      "title": "SQLite Copyright",
+      "url": "https://www.sqlite.org/copyright.html",
+      "domain": "www.sqlite.org",
+      "text": "SQLite Is Public Domain SQLite。SQLite Is Public Domain SQLite is in the Public Domain All of the code and documentation in SQLite has been dedicated to the public domain by the authors. All code authors, and representatives of the companies they work for, have signed affidavits dedicating their contributions to the public domain and originals of those signed affidavits are stored in a firesafe at the main offices of Hwaci. All contributors are citizens of countries that allow creative works to be dedicated into the public domain. Anyone is free to copy, modify, publish, use, compile, sell, or distribute the original SQLite code, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means. The previous paragraph applies to the deliverable code and documentation in SQLite - those parts of the SQLite library that you actually bundle and ship with a larger application. Some scripts used as part of the build process (for example the \"configure\" scripts generated by autoconf) might fall under other open-source licenses. Nothing from these build scripts ever reaches the final deliverable SQLite library, however, and so the licenses associated with those scripts should not be a factor in assessing your rights to copy and use the SQLite library. All of the deliverable code in SQLite has been written from scratch. No code has been taken from other projects or from the open internet. Every line of code can be traced back to its original author, and all of those authors have public domain dedications on file. So the SQLite code base is clean and is uncontaminated with licensed code from other projects. Open-Source, not Open-Contribution SQLite is open-source, meaning that you can make as many copies of it as you want and do whatever you want with those copies, without limitation. But SQLite is not open-contribution. In order to keep SQLite in the public domain and ensure that the code does not become contaminated with proprietary or licensed content, the project does not accept patches from people who have not submitted an affidavit dedicating their contribution into the public domain. All of the code in SQLite is original, having been written specifically for use by SQLite. No code has been copied from unknown sources on the internet. Warranty of Title SQLite is in the public domain and does not require a license. Even so, some organizations want legal proof of their right to use SQLite. Circumstances where this...",
+      "passage": "Small. Fast. Reliable. Choose any three. SQLite is in the All of the code and documentation in SQLite has been dedicated to the public domain by the authors.All code authors, and representatives of the companies they work for,have signed affidavits dedicating their contributions tothe public domain and originals ofthose signed affidavits are stored in a firesafe at the main officesof Hwaci . All contributors are citizensof countries that allow creative works to be dedicated into the publicdomain.Anyone is free to copy, modify, publish, use, compile, sell, or distributethe original SQLite code, either in source code form or as a compiled binary,for any purpose, commercial or non-commercial, and by any means. The previous paragraph applies to the deliverable code and documentationin SQLite -...",
+      "date": "2025/04/16 13:13:29",
+      "retrieved_at": "2026-10-24T09:20:17.555838+00:00",
+      "site": "www.sqlite.org",
+      "request_id": "f1000b8d-a12d-49f2-bc55-0a143d333925",
+      "query_ids": [
+        "Q2"
+      ],
+      "publisher_group": "sqlite.org",
+      "independence_group": "sqlite.org",
+      "is_repost": false,
+      "independence_note": "仅按域名与内容相似度分组，不保证真正独立",
+      "source_type": "相关项目一手域名",
+      "primary": true,
+      "digest": "fe6fa22e478f01311e8f816002c6ae5d9848fbf570963eac099d470712b4396b",
+      "level": "搜索摘要/内容 · 未核验原文",
+      "url_status": "未检查",
+      "http_status": 0,
+      "page_text": "",
+      "fetched_at": ""
+    },
+    {
+      "id": "S10",
+      "title": "SQLite Documentation",
+      "url": "https://www.sqlite.org/docsrc/artifact/b698824cea9b5037",
+      "domain": "www.sqlite.org",
+      "text": "Artifact b698824cea9b503751bf7380a98883a264d600a0: File copyright.tcl — part of check-in [6dc1e6a1f3] at 2007-11-12 03:45:06 on branch trunk — Initial check-in of documentation sources. (user: drh, size: 4455) [annotate] [blame] [check-ins using] set rcsid {$Id: copyright.tcl,v 1.7 2007/05/06 21:20:43 drh Exp $} source common.tcl header {SQLite Copyright} puts { SQLite Copyright SQLite is in the Public Domain All of the deliverable code in SQLite has been dedicated to the public domain by the authors. All code authors, and representatives of the companies they work for, have signed affidavits dedicating their contributions to the public domain and originals of those signed affidavits are stored in a firesafe at the main offices of Hwaci. Anyone is free to copy, modify, publish, use, compile, sell, or distribute the original SQLite code, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means. The previous paragraph applies to the deliverable code in SQLite - those parts of the SQLite library that you actually bundle and ship with a larger application. Portions of the documentation and some code used as part of the build process might fall under other licenses. The details here are unclear. We do not worry about the licensing of the documentation and build code so much because none of these things are part of the core deliverable SQLite library. All of the deliverable code in SQLite has been written from scratch. No code has been taken from other projects or from the open internet. Every line of code can be traced back to its original author, and all of those authors have public domain dedications on file. So the SQLite code base is clean and is uncontaminated with licensed code from other projects. Obtaining An Explicit License To Use SQLite Even though SQLite is in the public domain and does not require a license, some users want to obtain a license anyway. Some reasons for obtaining a license include: You are using SQLite in a jurisdiction that does not recognize the public domain. You are using SQLite in a jurisdiction that does not recognize the right of an author to dedicate their work to the public domain. You want to hold a tangible legal document as evidence that you have the legal right to use and distribute SQLite. Your legal department tells you that you have to purchase a license. If you feel like you really have to purchase a license for SQLite, Hwaci, the company that employs the arc...",
+      "passage": "Documentation Source Text。Artifact b698824cea9b503751bf7380a98883a264d600a0: File copyright.tcl — part of check-in [6dc1e6a1f3] at 2007-11-12 03:45:06 on branch trunk — Initial check-in of documentation sources. (user: drh, size: 4455) [annotate] [blame] [check-ins using] set rcsid {$Id: copyright.tcl,v 1.7 2007/05/06 21:20:43 drh Exp $} source common.tcl header {SQLite Copyright} puts { SQLite Copyright SQLite is in the Public Domain All of the deliverable code in SQLite has been dedicated to the public domain by the authors. All code authors, and representatives of the companies they work for, have signed affidavits dedicating their contributions to the public domain and originals of those signed affidavits are stored in a firesafe at the main offices of Hwaci. Anyone is free to copy, mo...",
+      "date": "未知",
+      "retrieved_at": "2026-10-24T09:20:17.555838+00:00",
+      "site": "www.sqlite.org",
+      "request_id": "f1000b8d-a12d-49f2-bc55-0a143d333925",
+      "query_ids": [
+        "Q2",
+        "Q3"
+      ],
+      "publisher_group": "sqlite.org",
+      "independence_group": "sqlite.org",
+      "is_repost": false,
+      "independence_note": "仅按域名与内容相似度分组，不保证真正独立",
+      "source_type": "相关项目一手域名",
+      "primary": true,
+      "digest": "b08998c915c938781f65548455e5d1dd8eb49bdb051b67b0127310769ee12fa5",
+      "level": "搜索摘要/内容 · 未核验原文",
+      "url_status": "未检查",
+      "http_status": 0,
+      "page_text": "",
+      "fetched_at": ""
+    },
+    {
+      "id": "S11",
+      "title": "SQLite Licensing for Commercial Use and Code Redistribution - SQLite Help Docs",
+      "url": "https://sqlite.work/?p=8268",
+      "domain": "sqlite.work",
+      "text": "SQLite Licensing for Commercial Use and Code Redistribution SQLite’s Public Domain Status and Its Implications for Commercial Applications SQLite is a widely-used, lightweight, and serverless relational database management system (RDBMS) that is released into the public domain. This means that SQLite is free for anyone to use, modify, and distribute without any restrictions. The public domain status of SQLite makes it an attractive choice for developers who are building applications that require an embedded database solution. However, the public domain nature of SQLite does not automatically extend to the applications or code that incorporate it. This distinction is crucial for developers who plan to commercialize their software, as it raises questions about licensing, redistribution rights, and intellectual property protection. When a developer integrates SQLite into their application, the licensing of the application itself remains independent of SQLite’s public domain status. The developer retains full control over how their code is licensed, whether it is released under a proprietary license, an open-source license, or any other licensing model. This separation allows developers to commercialize their applications without worrying about SQLite’s licensing terms affecting their ability to control the distribution and resale of their code. However, the public domain status of SQLite also means that anyone who obtains a copy of the database engine can use, modify, and redistribute it without any restrictions. This includes the version of SQLite that is bundled with a commercial application. Therefore, while the developer’s code is protected by their chosen license, the SQLite component remains freely redistributable. This can lead to confusion, especially when it comes to understanding the rights of end-users who purchase a commercial application that includes SQLite. The Relationship Between SQLite Licensing and Application Licensing The core issue revolves around the relationship between SQLite’s public domain status and the licensing of the application that incorporates it. SQLite’s public domain status means that it is not governed by any specific license, and it is free from copyright restrictions. This allows developers to use SQLite in their applications without needing to comply with any licensing terms or obligations. However, the application itself, including the code written by the developer, is subject to the licensing terms chosen by the deve...",
+      "passage": "SQLite Licensing for Commercial Use and Code Redistribution - SQLite Help Docs SQLite Help Docs。SQLite Licensing for Commercial Use and Code Redistribution SQLite’s Public Domain Status and Its Implications for Commercial Applications SQLite is a widely-used, lightweight, and serverless relational database management system (RDBMS) that is released into the public domain. This means that SQLite is free for anyone to use, modify, and distribute without any restrictions. The public domain status of SQLite makes it an attractive choice for developers who are building applications that require an embedded database solution. However, the public domain nature of SQLite does not automatically extend to the applications or code that incorporate it. This distinction is crucial for developers who pl...",
+      "date": "2025/03/20 00:00:00",
+      "retrieved_at": "2026-10-24T09:20:17.555838+00:00",
+      "site": "sqlite.work",
+      "request_id": "f1000b8d-a12d-49f2-bc55-0a143d333925",
+      "query_ids": [
+        "Q2",
+        "Q3"
+      ],
+      "publisher_group": "sqlite.work",
+      "independence_group": "sqlite.work",
+      "is_repost": false,
+      "independence_note": "仅按域名与内容相似度分组，不保证真正独立",
+      "source_type": "公开网页 · 身份待核验",
+      "primary": false,
+      "digest": "3c4d1b870481fcdca3907e80e0867b6cd72d8c7ab90b0fc50fb42160efa9dd72",
+      "level": "搜索摘要/内容 · 未核验原文",
+      "url_status": "未检查",
+      "http_status": 0,
+      "page_text": "",
+      "fetched_at": ""
+    },
+    {
+      "id": "S12",
+      "title": "Licensing Information",
+      "url": "https://docs.oracle.com/en/industries/hospitality/cruise/shipboard/silverwhere-9.1/swslg/c_licensing_guide_licensing_information.htm",
+      "domain": "docs.oracle.com",
+      "text": "2 Licensing Information This chapter provides the Oracle Hospitality Cruise SilverWhere: Description of products Prerequisite products Entitled products and restricted use licenses Prerequisite products, entitled products, and restricted use licenses do not apply to Oracle Hospitality Cloud products. Table 2-1 Oracle Hospitality Cruise SilverWhere Hospitality Product Subproduct Licensing Information Oracle Hospitality Cruise SilverWhere Oracle Hospitality Cruise SilverWhere Shipside Base Part Number: L101375 Product Editions and Permitted Features Base license purchased once for the entire SilverWhere. Prerequisite Products N/A Entitled Products and Restricted Use Licenses N/A Oracle Hospitality Cruise SilverWhere Oracle Hospitality Cruise SilverWhere Web Service Part Number: L101348 Product Editions and Permitted Features Base license purchased once for the entire SilverWhere. Prerequisite Products Oracle Hospitality Cruise Foundation Web Service Entitled Products and Restricted Use Licenses N/A Oracle Hospitality Cruise SilverWhere Oracle Hospitality Cruise SilverWhere Shoreside Base Part Number: L101543 Product Editions and Permitted Features Base license purchased once for the entire SilverWhere. Prerequisite Products N/A Entitled Products and Restricted Use Licenses N/A Oracle Hospitality Cruise SilverWhere Oracle Hospitality Cruise SilverWhere Shoreside Web Service Part Number: L101544 Product Editions and Permitted Features Base license purchased once for the entire SilverWhere. Prerequisite Products Oracle Hospitality Cruise SilverWhere Shoreside Base Entitled Products and Restricted Use Licenses N/A Third-Party Notices and/or Licenses Commercial Software No commercial software products or components requiring attribution exist for this release. Open Source Software or Other Separately Licensed Software Required notices for open source or other separately licensed software products or components distributed in SilverWhere are identified in the following table along with the applicable licensing information. Additional notices and/or licenses may be found in the included documentation or readme files of the individual third party open source software. Table 2-2 Third-Party Notices and Licenses Provider Component(s) Licensing Information The Legion Of The Bouncy Castle Bouncy Castle C# API 1.9.0 https://github.com/bcgit/bc-csharp/blob/master/crypto/License.html The Bouncy Castle Cryptographic C#® API License: The Bouncy Castle License Copyright (c) 2...",
+      "passage": "Licensing Information Oracle Help Center。SQLite.dll == License SQLite Is Public Domain SQLite is in the Public Domain All of the code and documentation in SQLite has been dedicated to the public domain by the authors. All code authors, and representatives of the companies they work for, have signed affidavits dedicating their contributions to the public domain and originals of those signed affidavits are stored in a firesafe at the main offices of Hwaci. All contributors are citizens of countries that allow creative works to be dedicated into the public domain. Anyone is free to copy, modify, publish, use, compile, sell, or distribute the original SQLite code, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means. The previous p...",
+      "date": "2024/03/19 23:19:49",
+      "retrieved_at": "2026-10-24T09:20:17.555838+00:00",
+      "site": "Oracle Help Center",
+      "request_id": "f1000b8d-a12d-49f2-bc55-0a143d333925",
+      "query_ids": [
+        "Q2"
+      ],
+      "publisher_group": "oracle.com",
+      "independence_group": "oracle.com",
+      "is_repost": false,
+      "independence_note": "仅按域名与内容相似度分组，不保证真正独立",
+      "source_type": "公开网页 · 身份待核验",
+      "primary": false,
+      "digest": "c83a49eaf109190313b014501b7877c1f071dcd39d422f7c74d5c86f56802da6",
+      "level": "搜索摘要/内容 · 未核验原文",
+      "url_status": "未检查",
+      "http_status": 0,
+      "page_text": "",
+      "fetched_at": ""
+    },
+    {
+      "id": "S13",
+      "title": "Artifact Content",
+      "url": "https://www.sqlite.org/docsrc/artifact/55bdd2138e6d99f8",
+      "domain": "www.sqlite.org",
+      "text": "Documentation Source Text Artifact Content Artifact 55bdd2138e6d99f8f1e9d5d07c90ce96f67ac7d9: File pages/copyright.in — part of check-in [419389e585] at 2013-05-28 13:23:04 on branch trunk — Clarify the license for SQLite documentation. (user: drh size: 4325) SQLite Copyright SQLite Copyright SQLite is in the [http://en.wikipedia.org/wiki/Public_Domain | Public Domain] All of the code and documentation in SQLite has been dedicated to the [http://en.wikipedia.org/wiki/Public_Domain|public domain] by the authors. All code authors, and representatives of the companies they work for, have signed affidavits dedicating their contributions to the public domain and originals of those signed affidavits are stored in a firesafe at the main offices of Hwaci. Anyone is free to copy, modify, publish, use, compile, sell, or distribute the original SQLite code, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means. The previous paragraph applies to the deliverable code and documentation in SQLite - those parts of the SQLite library that you actually bundle and ship with a larger application. Some scripts used as part of the build process (for example the \"configure\" scripts generated by autoconf) might fall under other open-source licenses. Nothing from these build scripts ever reaches the final deliverable SQLite library, however, and so the licenses associated with those scripts should not be a factor in assessing your rights to copy and use the SQLite library. All of the deliverable code in SQLite has been written from scratch. No code has been taken from other projects or from the open internet. Every line of code can be traced back to its original author, and all of those authors have public domain dedications on file. So the SQLite code base is clean and is uncontaminated with licensed code from other projects. Obtaining An Explicit License To Use SQLite Even though SQLite is in the public domain and does not require a license, some users want to obtain a license anyway. Some reasons for obtaining a license include: You are using SQLite in a jurisdiction that does not recognize the public domain. You are using SQLite in a jurisdiction that does not recognize the right of an author to dedicate their work to the public domain. You want to hold a tangible legal document as evidence that you have the legal right to use and distribute SQLite. Your legal department tells you that you have to pur...",
+      "passage": "Artifact Content SQLite。Documentation Source Text Artifact Content Artifact 55bdd2138e6d99f8f1e9d5d07c90ce96f67ac7d9: File pages/copyright.in — part of check-in [419389e585] at 2013-05-28 13:23:04 on branch trunk — Clarify the license for SQLite documentation. (user: drh size: 4325) SQLite Copyright SQLite Copyright SQLite is in the [http://en.wikipedia.org/wiki/Public_Domain | Public Domain] All of the code and documentation in SQLite has been dedicated to the [http://en.wikipedia.org/wiki/Public_Domain|public domain] by the authors. All code authors, and representatives of the companies they work for, have signed affidavits dedicating their contributions to the public domain and originals of those signed affidavits are stored in a firesafe at the main offices of Hwaci. Anyone is free to ...",
+      "date": "未知",
+      "retrieved_at": "2026-10-24T09:20:18.177457+00:00",
+      "site": "www.sqlite.org",
+      "request_id": "1bba501b-2487-4c36-9636-6a62fca518e1",
+      "query_ids": [
+        "Q3"
+      ],
+      "publisher_group": "sqlite.org",
+      "independence_group": "sqlite.org",
+      "is_repost": false,
+      "independence_note": "仅按域名与内容相似度分组，不保证真正独立",
+      "source_type": "相关项目一手域名",
+      "primary": true,
+      "digest": "2f51b38291c3b29a55e5b562762297ac084153b4f8a00ce42d0f99874a5878a3",
+      "level": "搜索摘要/内容 · 未核验原文",
+      "url_status": "未检查",
+      "http_status": 0,
+      "page_text": "",
+      "fetched_at": ""
+    },
+    {
+      "id": "S14",
+      "title": "Documentation Source Text",
+      "url": "https://www3.sqlite.org/docsrc/artifact/9ff8f7b6f3787657",
+      "domain": "www3.sqlite.org",
+      "text": "Artifact 9ff8f7b6f37876573debc693be69d8abb666e086: SQLite Copyright SQLite is in the [http://en.wikipedia.org/wiki/Public_Domain | Public Domain] All of the deliverable code in SQLite has been dedicated to the [http://en.wikipedia.org/wiki/Public_Domain|public domain] by the authors. All code authors, and representatives of the companies they work for, have signed affidavits dedicating their contributions to the public domain and originals of those signed affidavits are stored in a firesafe at the main offices of Hwaci. Anyone is free to copy, modify, publish, use, compile, sell, or distribute the original SQLite code, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means. The previous paragraph applies to the deliverable code in SQLite - those parts of the SQLite library that you actually bundle and ship with a larger application. Portions of the documentation and some code used as part of the build process might fall under other licenses. The details here are unclear. We do not worry about the licensing of the documentation and build code so much because none of these things are part of the core deliverable SQLite library. All of the deliverable code in SQLite has been written from scratch. No code has been taken from other projects or from the open internet. Every line of code can be traced back to its original author, and all of those authors have public domain dedications on file. So the SQLite code base is clean and is uncontaminated with licensed code from other projects. Obtaining An Explicit License To Use SQLite Even though SQLite is in the public domain and does not require a license, some users want to obtain a license anyway. Some reasons for obtaining a license include: You are using SQLite in a jurisdiction that does not recognize the public domain. You are using SQLite in a jurisdiction that does not recognize the right of an author to dedicate their work to the public domain. You want to hold a tangible legal document as evidence that you have the legal right to use and distribute SQLite. Your legal department tells you that you have to purchase a license. If you feel like you really have to purchase a license for SQLite, Hwaci, the company that employs the architect and principal developers of SQLite, will sell you one. Contributed Code In order to keep SQLite completely free and unencumbered by copyright, all new contributors to the SQLite code base are asked to dedicate their...",
+      "passage": "Documentation Source Text。Artifact 9ff8f7b6f37876573debc693be69d8abb666e086: SQLite Copyright SQLite is in the [http://en.wikipedia.org/wiki/Public_Domain | Public Domain] All of the deliverable code in SQLite has been dedicated to the [http://en.wikipedia.org/wiki/Public_Domain|public domain] by the authors. All code authors, and representatives of the companies they work for, have signed affidavits dedicating their contributions to the public domain and originals of those signed affidavits are stored in a firesafe at the main offices of Hwaci. Anyone is free to copy, modify, publish, use, compile, sell, or distribute the original SQLite code, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means. The previous paragraph applies...",
+      "date": "2009/10/26 14:52:14",
+      "retrieved_at": "2026-10-24T09:20:18.177457+00:00",
+      "site": "www3.sqlite.org",
+      "request_id": "1bba501b-2487-4c36-9636-6a62fca518e1",
+      "query_ids": [
+        "Q3"
+      ],
+      "publisher_group": "sqlite.org",
+      "independence_group": "sqlite.org",
+      "is_repost": true,
+      "independence_note": "与 S1 存在出处标注或高度相似内容，保守合并计数",
+      "source_type": "相关项目一手域名",
+      "primary": true,
+      "digest": "87d60a9382e33825188ce7e94cf7531016ab4f1a49c362c6b760d749a5649bae",
+      "level": "搜索摘要/内容 · 未核验原文",
+      "url_status": "未检查",
+      "http_status": 0,
+      "page_text": "",
+      "fetched_at": ""
+    },
+    {
+      "id": "S15",
+      "title": "What Is SQLite? The Embedded SQL Database Explained",
+      "url": "https://coddy.tech/docs/sqlite/what-is-sqlite",
+      "domain": "coddy.tech",
+      "text": "What Is SQLite? The Embedded SQL Database Explained SQLite is a serverless, file-based SQL database that runs inside your application. Here's what it actually is, how it differs from a database server, and when it shines. ▶This page includes runnable editors - edit, run, and see output instantly. SQLite Is a Database Inside Your Program Most databases you've heard of - MySQL, Postgres, SQL Server - run as a separate program. You start a server, it listens on a port, and your application connects over the network to ask it questions. SQLite throws that whole model out. SQLite is a library. You link it into your program, and it gives you a SQL database that lives in a single file on disk. There's no server, no port, no daemon, no pg_ctl start. Your application opens a file, and that file is the database. sqlite3 mydata.db That command opens (or creates) a file called mydata.db and gives you a SQL prompt. Everything you do - tables, rows, indexes - gets stored in that one file. Copy it to another machine and the database goes with it. Delete it and the database is gone. A Quick Tour of the SQL The SQL itself looks like SQL anywhere else. If you've used another database, almost everything will feel familiar: CREATE TABLE books ( id INTEGER PRIMARY KEY, title TEXT NOT NULL, author TEXT NOT NULL, year INTEGER ); INSERT INTO books (title, author, year) VALUES ('The Left Hand of Darkness', 'Ursula K. Le Guin', 1969), ('Project Hail Mary', 'Andy Weir', 2021), ('Piranesi', 'Susanna Clarke', 2020); SELECT title, year FROM books ORDER BY year DESC; query.sql ResetEraseRun 1 2 C R E A T E T A B L E b o o k s ( i d I N T Output Click Run to see query results here. Standard SQL - CREATE TABLE, INSERT, SELECT, ORDER BY. SQLite supports the parts of the SQL standard you actually use day-to-day, plus modern niceties like CTEs, window functions, and JSON functions. The differences from Postgres or MySQL are mostly around types and a few syntax quirks, which we'll cover later. What \"Embedded\" and \"Serverless\" Actually Mean Two words come up constantly with SQLite. They're worth getting straight. Embedded means SQLite runs in the same process as your application. There's no separate database process. When your Python script calls sqlite3.connect(\"data.db\"), the SQL engine is running inside your Python process, reading and writing the file directly. Serverless means there's no server to install, configure, run, secure, or back up. Compare the steps to start using a database: Po...",
+      "passage": "What Is SQLite? The Embedded SQL Database Explained Coddy。 It's not built for high write concurrency. SQLite uses file-level locking (with some clever optimizations in WAL mode), so while many readers can work in parallel, only one writer at a time gets to commit. For a single-user app or a low-traffic website, this is a non-issue. For a multi-tenant SaaS taking thousands of writes per second, it's the wrong tool. It doesn't manage users or permissions. Database access is file access - whoever can read the file can read the data. That's fine for an app that owns its own database file. It's not fine for a shared multi-tenant setup. Why You'd Choose It The trade is simplicity for some scaling headroom you may never need: Zero setup. No service to run. No version mismatch between dev and prod...",
+      "date": "2026/05/03 00:00:00",
+      "retrieved_at": "2026-10-24T09:20:18.177457+00:00",
+      "site": "coddy.tech",
+      "request_id": "1bba501b-2487-4c36-9636-6a62fca518e1",
+      "query_ids": [
+        "Q3"
+      ],
+      "publisher_group": "coddy.tech",
+      "independence_group": "coddy.tech",
+      "is_repost": false,
+      "independence_note": "仅按域名与内容相似度分组，不保证真正独立",
+      "source_type": "公开网页 · 身份待核验",
+      "primary": false,
+      "digest": "d5a451507cdf06f437e79c4caf983ee08ebd905317911fdd0f7fd51ff7eaa47e",
+      "level": "搜索摘要/内容 · 未核验原文",
+      "url_status": "未检查",
+      "http_status": 0,
+      "page_text": "",
+      "fetched_at": ""
+    },
+    {
+      "id": "S16",
+      "title": "SQLite in 2026: Pricing, Plans and Alternatives The Geeks Club",
+      "url": "https://www.thegeeksclub.com/platforms/sqlite/",
+      "domain": "www.thegeeksclub.com",
+      "text": "SQLite By SQLite · sqlite.org What SQLite is SQLite is an in-process SQL database engine that stores data within an application rather than in a separate server process. It is self-contained and requires no configuration, and each complete database is held in a single disk file that works across platforms. Its SQL features include partial indexes, indexes on expressions, JSON, common table expressions, and window functions. Transactions remain atomic, consistent, isolated, and durable even after system crashes or power failures. SQLite allows unlimited simultaneous readers, but only one writer at a time per database file. The project recommends it for device-local storage with low writer concurrency and less than a terabyte of content. SQLite is free for private or commercial use, with source code in the public domain. Downloads include source code and precompiled binaries for Android, Linux, Mac OS X, and Windows, plus WebAssembly and JavaScript bundles for web applications. A free public forum is available, along with paid private email and technical support options. SQLite is associated with Charlotte, North Carolina, and was founded in 2000. Who it suits SQLite suits developers who need a self-contained database for device-local storage, especially when writer concurrency is low. It is a less suitable fit when a database file needs simultaneous writers. Good to know, and what to watch Each database is stored in one cross-platform disk file. Supports JSON and window functions. Free for commercial or private use. Unlimited simultaneous readers. Only one writer is allowed per database file at a time. Project recommends it for less than a terabyte of content. Private email and technical support options are paid. Plans Every plan and price SQLite Free SQLite Consortium Membership $150/yr Technical Support $885/yr Annual Maintenance Subscription $1,500/yr Free plan Getting started Open the SQLite website Choose source code, a precompiled binary, or a web bundle Select the package for Android, Linux, Mac OS X, Windows, or web use Embed the engine in the application Store the database in its single disk file Limits to check The free SQLite plan is the embedded SQL database engine at no cost and permits unlimited simultaneous readers, but each database file allows only one writer at a time. SQLite recommends this model for low writer concurrency and less than a terabyte of content. The Club's review Overview SQLite puts a structured SQL database inside an appli...",
+      "passage": "SQLite in 2026: Pricing, Plans and Alternatives | The Geeks Club The Geeks Club。 applications with frequent simultaneous writes should look elsewhere or reconsider their storage design. SQLite's security guidance notes extensive fuzz testing and recommends defensive settings and lower input limits when accepting untrusted SQL. Pricing The SQLite engine costs free, with no license required for commercial or private use. That makes the core database available without a recurring charge, but it does not include the paid support and extensions below. SQLite Consortium Membership: $150 a year for premium enterprise support, on-site visits, proprietary extensions and test suites; suited to organizations that need those services. Technical Support: $885 a year for high-priority email and phone su...",
+      "date": "未知",
+      "retrieved_at": "2026-10-24T09:20:18.177457+00:00",
+      "site": "www.thegeeksclub.com",
+      "request_id": "1bba501b-2487-4c36-9636-6a62fca518e1",
+      "query_ids": [
+        "Q3"
+      ],
+      "publisher_group": "thegeeksclub.com",
+      "independence_group": "sqlite.org",
+      "is_repost": true,
+      "independence_note": "与 S5 存在出处标注或高度相似内容，保守合并计数",
+      "source_type": "公开网页 · 身份待核验",
+      "primary": false,
+      "digest": "922b42a835d04c51df34fc902c3362dfea5529e82329c62debc4eb914fff8ce8",
+      "level": "搜索摘要/内容 · 未核验原文",
+      "url_status": "未检查",
+      "http_status": 0,
+      "page_text": "",
+      "fetched_at": ""
+    }
+  ],
+  "evidence": [],
+  "conflicts": [],
+  "events": [
+    {
+      "sequence": 1,
+      "kind": "started",
+      "message": "建立调查档案；所有核心检索仅使用元宝搜索。",
+      "at": "2026-10-24T09:20:16.796365+00:00",
+      "elapsed_ms": 0,
+      "data": {}
+    },
+    {
+      "sequence": 2,
+      "kind": "plan",
+      "message": "拆解为 1 个待核查主张。",
+      "at": "2026-10-24T09:20:16.796452+00:00",
+      "elapsed_ms": 0,
+      "data": {
+        "claims": [
+          {
+            "id": "C1",
+            "text": "我看到资料说 SQLite 是公有领域，也有资料说使用 SQLite 要买许可证。这两种说法冲突，商业使用必须付费",
+            "entity": "我看到资料说 SQLite 是公有领域，也有资料说使用 SQLite 要买许可证。这两种说法",
+            "time_scope": "未知",
+            "conditions": "未知",
+            "verdict": "调查中",
+            "conclusion": "",
+            "evidence_ids": [],
+            "missing": [],
+            "next_action": "",
+            "strength": "待核验"
+          }
+        ],
+        "scope": "公开、非敏感、可检索信息；不包含私人数据或后台实时库存。"
+      }
+    },
+    {
+      "sequence": 3,
+      "kind": "search_start",
+      "message": "Q1 · 查找直接材料与原始出处",
+      "at": "2026-10-24T09:20:16.796494+00:00",
+      "elapsed_ms": 0,
+      "data": {
+        "id": "Q1",
+        "query": "我看到资料说 SQLite 是公有领域，也有资料说使用 SQLite 要买许可证。这两种说法是否冲突，商业使用是否必须付费 官方 文档",
+        "purpose": "direct",
+        "reason": "查找直接材料与原始出处",
+        "claim_ids": [
+          "C1"
+        ],
+        "round": 1,
+        "status": "running"
+      }
+    },
+    {
+      "sequence": 4,
+      "kind": "search_result",
+      "message": "Q1 · 返回 8 条，新增 8 个来源。",
+      "at": "2026-10-24T09:20:17.555218+00:00",
+      "elapsed_ms": 759,
+      "data": {
+        "id": "Q1",
+        "query": "我看到资料说 SQLite 是公有领域，也有资料说使用 SQLite 要买许可证。这两种说法是否冲突，商业使用是否必须付费 官方 文档",
+        "purpose": "direct",
+        "reason": "查找直接材料与原始出处",
+        "claim_ids": [
+          "C1"
+        ],
+        "round": 1,
+        "status": "done",
+        "result_count": 8,
+        "new_sources": 8,
+        "sources": [
+          {
+            "id": "S1",
+            "title": "SQLite Documentation",
+            "url": "https://www.sqlite.org/docsrc/artifact/9ff8f7b6f3787657",
+            "domain": "www.sqlite.org",
+            "text": "Artifact 9ff8f7b6f37876573debc693be69d8abb666e086: File pages/copyright.in — part of check-in [4fb1b232ad] at 2009-10-26 14:52:14 on branch trunk — Add a \"⟾\" mark after all hyperlinks to external websites. (user: drh, size: 4220) [annotate] [blame] [check-ins using] SQLite Copyright SQLite is in the [http://en.wikipedia.org/wiki/Public_Domain | Public Domain] All of the deliverable code in SQLite has been dedicated to the [http://en.wikipedia.org/wiki/Public_Domain|public domain] by the authors. All code authors, and representatives of the companies they work for, have signed affidavits dedicating their contributions to the public domain and originals of those signed affidavits are stored in a firesafe at the main offices of Hwaci. Anyone is free to copy, modify, publish, use, compile, sell, or distribute the original SQLite code, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means. The previous paragraph applies to the deliverable code in SQLite - those parts of the SQLite library that you actually bundle and ship with a larger application. Portions of the documentation and some code used as part of the build process might fall under other licenses. The details here are unclear. We do not worry about the licensing of the documentation and build code so much because none of these things are part of the core deliverable SQLite library. All of the deliverable code in SQLite has been written from scratch. No code has been taken from other projects or from the open internet. Every line of code can be traced back to its original author, and all of those authors have public domain dedications on file. So the SQLite code base is clean and is uncontaminated with licensed code from other projects. Obtaining An Explicit License To Use SQLite Even though SQLite is in the public domain and does not require a license, some users want to obtain a license anyway. Some reasons for obtaining a license include: You are using SQLite in a jurisdiction that does not recognize the public domain. You are using SQLite in a jurisdiction that does not recognize the right of an author to dedicate their work to the public domain. You want to hold a tangible legal document as evidence that you have the legal right to use and distribute SQLite. Your legal department tells you that you have to purchase a license. If you feel like you really have to purchase a license for SQLite, Hwaci, the company that employs the arc...",
+            "passage": "SQLite Documentation SQLite。Artifact 9ff8f7b6f37876573debc693be69d8abb666e086: File pages/copyright.in — part of check-in [4fb1b232ad] at 2009-10-26 14:52:14 on branch trunk — Add a \"⟾\" mark after all hyperlinks to external websites. (user: drh, size: 4220) [annotate] [blame] [check-ins using] SQLite Copyright SQLite is in the [http://en.wikipedia.org/wiki/Public_Domain | Public Domain] All of the deliverable code in SQLite has been dedicated to the [http://en.wikipedia.org/wiki/Public_Domain|public domain] by the authors. All code authors, and representatives of the companies they work for, have signed affidavits dedicating their contributions to the public domain and originals of those signed affidavits are stored in a firesafe at the main offices of Hwaci. Anyone is free to copy, ...",
+            "date": "未知",
+            "retrieved_at": "2026-10-24T09:20:16.796734+00:00",
+            "site": "www.sqlite.org",
+            "request_id": "d93f160c-71ce-49b5-a341-1433b5ecd579",
+            "query_ids": [
+              "Q1"
+            ],
+            "publisher_group": "sqlite.org",
+            "independence_group": "sqlite.org",
+            "is_repost": false,
+            "independence_note": "仅按域名与内容相似度分组，不保证真正独立",
+            "source_type": "相关项目一手域名",
+            "primary": true,
+            "digest": "7098316f3bdc21992c271da86a424dbdf8d908cfb5a0a4ed1448a116d24c2e49",
+            "level": "搜索摘要/内容 · 未核验原文",
+            "url_status": "未检查",
+            "http_status": 0,
+            "page_text": "",
+            "fetched_at": ""
+          },
+          {
+            "id": "S2",
+            "title": "Documentation Source Text",
+            "url": "https://www2.sqlite.org/docsrc/artifact/a9eabafb68b789d7",
+            "domain": "www2.sqlite.org",
+            "text": "Artifact a9eabafb68b789d7ae04f2360e7fcc01ed49457f207bafa95a24318dc496bcbb: hd_keywords {copyright} {public-domain} {license} SQLite Is Public Domain SQLite is in the [http://en.wikipedia.org/wiki/Public_Domain | Public Domain] All of the code and documentation in SQLite has been dedicated to the [http://en.wikipedia.org/wiki/Public_Domain|public domain] by the authors. All code authors, and representatives of the companies they work for, have signed affidavits dedicating their contributions to the public domain and originals of those signed affidavits are stored in a firesafe at the main offices of Hwaci. Anyone is free to copy, modify, publish, use, compile, sell, or distribute the original SQLite code, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means. The previous paragraph applies to the deliverable code and documentation in SQLite - those parts of the SQLite library that you actually bundle and ship with a larger application. Some scripts used as part of the build process (for example the \"configure\" scripts generated by autoconf) might fall under other open-source licenses. Nothing from these build scripts ever reaches the final deliverable SQLite library, however, and so the licenses associated with those scripts should not be a factor in assessing your rights to copy and use the SQLite library. All of the deliverable code in SQLite has been written from scratch. No code has been taken from other projects or from the open internet. Every line of code can be traced back to its original author, and all of those authors have public domain dedications on file. So the SQLite code base is clean and is uncontaminated with licensed code from other projects. Obtaining A License To Use SQLite Even though SQLite is in the public domain and does not require a license, some users want to obtain a license anyway. Some reasons for obtaining a license include: Your company desires warranty of title and/or indemnity against claims of copyright infringement. You are using SQLite in a jurisdiction that does not recognize the public domain. You are using SQLite in a jurisdiction that does not recognize the right of an author to dedicate their work to the public domain. You want to hold a tangible legal document as evidence that you have the legal right to use and distribute SQLite. Your legal department tells you that you have to purchase a license. If you feel like you really need to purchase a license ...",
+            "passage": "Documentation Source Text。Artifact a9eabafb68b789d7ae04f2360e7fcc01ed49457f207bafa95a24318dc496bcbb: hd_keywords {copyright} {public-domain} {license} SQLite Is Public Domain SQLite is in the [http://en.wikipedia.org/wiki/Public_Domain | Public Domain] All of the code and documentation in SQLite has been dedicated to the [http://en.wikipedia.org/wiki/Public_Domain|public domain] by the authors. All code authors, and representatives of the companies they work for, have signed affidavits dedicating their contributions to the public domain and originals of those signed affidavits are stored in a firesafe at the main offices of Hwaci. Anyone is free to copy, modify, publish, use, compile, sell, or distribute the original SQLite code, either in source code form or as a compiled binary, for any ...",
+            "date": "2017/07/10 18:11:17",
+            "retrieved_at": "2026-10-24T09:20:16.796734+00:00",
+            "site": "www2.sqlite.org",
+            "request_id": "d93f160c-71ce-49b5-a341-1433b5ecd579",
+            "query_ids": [
+              "Q1"
+            ],
+            "publisher_group": "sqlite.org",
+            "independence_group": "sqlite.org",
+            "is_repost": false,
+            "independence_note": "仅按域名与内容相似度分组，不保证真正独立",
+            "source_type": "相关项目一手域名",
+            "primary": true,
+            "digest": "29256b7dd7d1feed23c7aab4d0472f4c82f2050a5b186f158efb44fdad7cc70c",
+            "level": "搜索摘要/内容 · 未核验原文",
+            "url_status": "未检查",
+            "http_status": 0,
+            "page_text": "",
+            "fetched_at": ""
+          },
+          {
+            "id": "S3",
+            "title": "SQLite Documentation",
+            "url": "https://www.sqlite.org/docsrc/artifact/43b7e8cdc9e9cbc6",
+            "domain": "www.sqlite.org",
+            "text": "Artifact 43b7e8cdc9e9cbc61385a91a2ed2d2c9121fdc53: File pages/copyright.in — part of check-in [9bab722ac3] at 2016-08-31 17:00:38 on branch mobile-friendly — Further refinement of the home page. (user: drh, size: 4696) [annotate] [blame] [check-ins using] [more...] hd_keywords {copyright} {public-domain} {license} SQLite Is Public Domain SQLite is in the [http://en.wikipedia.org/wiki/Public_Domain | Public Domain] All of the code and documentation in SQLite has been dedicated to the [http://en.wikipedia.org/wiki/Public_Domain|public domain] by the authors. All code authors, and representatives of the companies they work for, have signed affidavits dedicating their contributions to the public domain and originals of those signed affidavits are stored in a firesafe at the main offices of Hwaci. Anyone is free to copy, modify, publish, use, compile, sell, or distribute the original SQLite code, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means. The previous paragraph applies to the deliverable code and documentation in SQLite - those parts of the SQLite library that you actually bundle and ship with a larger application. Some scripts used as part of the build process (for example the \"configure\" scripts generated by autoconf) might fall under other open-source licenses. Nothing from these build scripts ever reaches the final deliverable SQLite library, however, and so the licenses associated with those scripts should not be a factor in assessing your rights to copy and use the SQLite library. All of the deliverable code in SQLite has been written from scratch. No code has been taken from other projects or from the open internet. Every line of code can be traced back to its original author, and all of those authors have public domain dedications on file. So the SQLite code base is clean and is uncontaminated with licensed code from other projects. Obtaining An License To Use SQLite Even though SQLite is in the public domain and does not require a license, some users want to obtain a license anyway. Some reasons for obtaining a license include: Your company desires warranty of title and/or indemnity against claims of copyright infringement. You are using SQLite in a jurisdiction that does not recognize the public domain. You are using SQLite in a jurisdiction that does not recognize the right of an author to dedicate their work to the public domain. You want to hold a tangible legal document as e...",
+            "passage": "Documentation Source Text SQLite。Artifact 43b7e8cdc9e9cbc61385a91a2ed2d2c9121fdc53: File pages/copyright.in — part of check-in [9bab722ac3] at 2016-08-31 17:00:38 on branch mobile-friendly — Further refinement of the home page. (user: drh, size: 4696) [annotate] [blame] [check-ins using] [more...] hd_keywords {copyright} {public-domain} {license} SQLite Is Public Domain SQLite is in the [http://en.wikipedia.org/wiki/Public_Domain | Public Domain] All of the code and documentation in SQLite has been dedicated to the [http://en.wikipedia.org/wiki/Public_Domain|public domain] by the authors. All code authors, and representatives of the companies they work for, have signed affidavits dedicating their contributions to the public domain and originals of those signed affidavits are stored in a fi...",
+            "date": "未知",
+            "retrieved_at": "2026-10-24T09:20:16.796734+00:00",
+            "site": "www.sqlite.org",
+            "request_id": "d93f160c-71ce-49b5-a341-1433b5ecd579",
+            "query_ids": [
+              "Q1"
+            ],
+            "publisher_group": "sqlite.org",
+            "independence_group": "sqlite.org",
+            "is_repost": true,
+            "independence_note": "与 S2 存在出处标注或高度相似内容，保守合并计数",
+            "source_type": "相关项目一手域名",
+            "primary": true,
+            "digest": "28fe8c2c143e762639788e72df6fdcb07fef74374cdc1b6172f0c67e45dfff33",
+            "level": "搜索摘要/内容 · 未核验原文",
+            "url_status": "未检查",
+            "http_status": 0,
+            "page_text": "",
+            "fetched_at": ""
+          },
+          {
+            "id": "S4",
+            "title": "SQLite Documentation",
+            "url": "https://www.sqlite.org/docsrc/artifact/0984569ea8619c5a",
+            "domain": "www.sqlite.org",
+            "text": "SQLite Copyright SQLite Copyright SQLite is in the Public Domain All of the deliverable code in SQLite has been dedicated to the public domain by the authors.All code authors, and representatives of the companies they work for,have signed affidavits dedicating their contributions tothe public domain and originals ofthose signed affidavits are stored in a firesafe at the main officesof Hwaci .Anyone is free to copy, modify, publish, use, compile, sell, or distributethe original SQLite code, either in source code form or as a compiled binary,for any purpose, commercial or non-commercial, and by any means. The previous paragraph applies to the deliverable code in SQLite - those parts of the SQLite library that you actually bundle andship with a larger application. Portions of the documentation andsome code used as part of the build process might fall underother licenses. The details here are unclear. We do not worryabout the licensing of the documentation and build code so muchbecause none of these things are part of the core deliverableSQLite library. All of the deliverable code in SQLite has been written from scratch.No code has been taken from other projects or from the openinternet. Every line of code can be traced back to its originalauthor, and all of those authors have public domain dedicationson file. So the SQLite code base is clean and isuncontaminated with licensed code from other projects. Obtaining An Explicit License To Use SQLite Even though SQLite is in the public domain and does not requirea license, some users want to obtain a license anyway. Some reasonsfor obtaining a license include: You are using SQLite in a jurisdiction that does not recognize the public domain. You are using SQLite in a jurisdiction that does not recognize the right of an author to dedicate their work to the public domain. You want to hold a tangible legal document as evidence that you have the legal right to use and distribute SQLite. Your legal department tells you that you have to purchase a license. If you feel like you really have to purchase a license for SQLite,<a href=...",
+            "passage": "SQLite Documentation SQLite。SQLite CopyrightSQLite Copyright SQLite is in thePublic Domain All of the deliverable code in SQLite has been dedicated to thepublic domainby the authors.All code authors, and representatives of the companies they work for,have signed affidavits dedicating their contributions tothe public domain and originals ofthose signed affidavits are stored in a firesafe at the main officesof Hwaci.Anyone is free to copy, modify, publish, use, compile, sell, or distributethe original SQLite code, either in source code form or as a compiled binary,for any purpose, commercial or non-commercial, and by any means. The previous paragraph applies to the deliverable code in SQLite - those parts of the SQLite library that you actually bundle ands...",
+            "date": "未知",
+            "retrieved_at": "2026-10-24T09:20:16.796734+00:00",
+            "site": "www.sqlite.org",
+            "request_id": "d93f160c-71ce-49b5-a341-1433b5ecd579",
+            "query_ids": [
+              "Q1"
+            ],
+            "publisher_group": "sqlite.org",
+            "independence_group": "sqlite.org",
+            "is_repost": false,
+            "independence_note": "仅按域名与内容相似度分组，不保证真正独立",
+            "source_type": "相关项目一手域名",
+            "primary": true,
+            "digest": "947c24f626ed0112cb1d5458d9937f767d5668ffbb102b42feb83d954135ae4d",
+            "level": "搜索摘要/内容 · 未核验原文",
+            "url_status": "未检查",
+            "http_status": 0,
+            "page_text": "",
+            "fetched_at": ""
+          },
+          {
+            "id": "S5",
+            "title": "SQLite Warranty Of Title",
+            "url": "https://sqlite.org/purchase/license",
+            "domain": "sqlite.org",
+            "text": "The core SQLite database software is in the public domain. No license is necessary to use SQLite or to build SQLite into your products. However, licenses are available to satisfy the following needs: You want indemnity against claims of copyright infringement. You are using SQLite in a jurisdiction that does not recognize the public domain. You are using SQLite in a jurisdiction that does not recognize the right of authors to dedicate their work to the public domain. You want to hold a tangible legal document as evidence that you have the legal right to use and distribute SQLite. Your legal department tells you that you have to purchase a license. Because the SQLite code is in the public domain, \"license\" is not quite the right word to describe this product. A more accurate description is \"Warranty of Title\". This product is a legal document that certifies that the SQLite software is an original work and that the authors of SQLite have dedicated their work to the public domain. The doc...",
+            "passage": "SQLite Warranty Of Title SQLite。The core SQLite database software is in the public domain. No license is necessary to use SQLite or to build SQLite into your products. However, licenses are available to satisfy the following needs: You want indemnity against claims of copyright infringement. You are using SQLite in a jurisdiction that does not recognize the public domain. You are using SQLite in a jurisdiction that does not recognize the right of authors to dedicate their work to the public domain. You want to hold a tangible legal document as evidence that you have the legal right to use and distribute SQLite. Your legal department tells you that you have to purchase a license. Because the SQLite code is in the public domain, \"license\" is not quite the right word to describe this product....",
+            "date": "未知",
+            "retrieved_at": "2026-10-24T09:20:16.796734+00:00",
+            "site": "sqlite.org",
+            "request_id": "d93f160c-71ce-49b5-a341-1433b5ecd579",
+            "query_ids": [
+              "Q1"
+            ],
+            "publisher_group": "sqlite.org",
+            "independence_group": "sqlite.org",
+            "is_repost": false,
+            "independence_note": "仅按域名与内容相似度分组，不保证真正独立",
+            "source_type": "相关项目一手域名",
+            "primary": true,
+            "digest": "1fdbe95192aefa9cbca78057f0409a12ee4261dceed0bd2863baf6f205630120",
+            "level": "搜索摘要/内容 · 未核验原文",
+            "url_status": "未检查",
+            "http_status": 0,
+            "page_text": "",
+            "fetched_at": ""
+          },
+          {
+            "id": "S6",
+            "title": "Sustainability of Digital Formats: Planning for Library of Congress Collections",
+            "url": "https://loc.gov/preservation/digital/formats/fdd/fdd000461.shtml",
+            "domain": "loc.gov",
+            "text": "SQLite, Version 3 **Format Description Properties ** ID: fdd000461 Short name: SQLite_3 Content categories: database, dataset Format Category: file-format Other facets: unitary, binary, structured, symbolic Last significant FDD update: 2024-05-07 Draft status: Preliminary Identification and description Full name SQLite, Version 3 Description SQLite, version 3, is the file format used as the publicly documented native format for the SQLite database engine since June 2004. Software and associated documentation are available at https://www.sqlite.org/. The code, software, and accompanying documentation have been dedicated to the public domain. SQLite is an embedded SQL database engine that requires no configuration and reads and writes directly to ordinary disk files. A complete SQL database with tables, indexes, triggers, and views, is contained in a single disk file. The engine, and thus the file format, support a full-featured SQL implementation. The database file format, referred to here as \"SQLite_3\", is cross-platform, transferable between 32-bit and 64-bit systems or between big-endian and little-endian architectures. These features make SQLite_3 a popular choice as an application file format. See Adoption under Sustainability Factors below for examples of the many operating systems and software applications in which it is distributed or used. SQLite is not directly comparable to client/server SQL database engines such as MySQL, Oracle, PostgreSQL, or SQL Server. They are designed to implement a shared repository of enterprise data; SQLite is designed to provide local data storage for individual applications. See Appropriate Uses For SQLite for more detail on when SQLite is appropriate and examples of when a client/server SQL database engine would be more appropriate. The main SQLite_3 database file consists of one or more pages. All pages within the same database are the same size. The size of a page in bytes is a power of two between 512 and 65536 inclusive. The page size for a database file is indicated by the 2-byte integer located at an offset of 16 bytes from the beginning of the database file. The theoretical maximum size for an SQLite_3 database file is about 140 terabytes; typically, the file size limit of the underlying filesystem or hardware is the practical constraint. The smallest SQLite_3 database is a single 512-byte page. Every page in an SQLite_3 database file is of a particular type: A b-tree page. The b-tree pages hold the main datab...",
+            "passage": "Sustainability of Digital Formats: Planning for Library of Congress Collections Library of Congress。 a code to indicate whether the database is running with write ahead logging (WAL); and codes that indicate whether the database is configured for vacuuming. Production phase Primarily a middle-state format, typically in active use for recording transactions. Relationship to other formats Has earlier version File formats used by SQLite version 1.0.x (initial release in August 2000) and version 2.x (initial release in September 2001), not described separately on this website at this time. Has subtype GeoPackage_1_0, GeoPackage Encoding Standard (OGC), version 1.0 Local use LC experience or existing holdings The Library of Congress has a small amount of SQLite files in its collections. LC pref...",
+            "date": "2024/05/07 00:00:00",
+            "retrieved_at": "2026-10-24T09:20:16.796734+00:00",
+            "site": "loc.gov",
+            "request_id": "d93f160c-71ce-49b5-a341-1433b5ecd579",
+            "query_ids": [
+              "Q1"
+            ],
+            "publisher_group": "loc.gov",
+            "independence_group": "loc.gov",
+            "is_repost": false,
+            "independence_note": "仅按域名与内容相似度分组，不保证真正独立",
+            "source_type": "公开网页 · 身份待核验",
+            "primary": false,
+            "digest": "3967c930ed848a7ef1d329fd5196080a9846c5cdf6c358fa281d1dcf03103c53",
+            "level": "搜索摘要/内容 · 未核验原文",
+            "url_status": "未检查",
+            "http_status": 0,
+            "page_text": "",
+            "fetched_at": ""
+          },
+          {
+            "id": "S7",
+            "title": "專業支援與延伸產品",
+            "url": "http://sqlite.dev.org.tw/prosupport.html",
+            "domain": "sqlite.dev.org.tw",
+            "text": "專業支援與延伸產品 支援 (詳情如下) 1. **公開論壇。**來自全球專家社群的協助與建議。 免費 更多資訊 最新文章 2. **年度維護訂閱。**來自 SQLite 開發人員的私人專業電子郵件建議。 $1500/年 更多資訊 購買 3. **技術支援。**來自 SQLite 開發人員的高優先順序電子郵件與電話支援。可選擇保證回應時間。 $8K-85K/年 更多資訊 索取報價 4. **SQLite Consortium 會員資格。**包含現場拜訪與存取所有專有延伸功能與測試套件的高階企業支援。 $120K/年 更多資訊 索取報價 **公開論壇。**來自全球專家社群的協助與建議。 費用:免費 更多資訊 最新文章 **年度維護訂閱。**來自 SQLite 開發人員的私人專業電子郵件建議。 費用:$1500/年 更多資訊 購買 **技術支援。**來自 SQLite 開發人員的高優先順序電子郵件與電話支援。可選擇保證回應時間。 費用:$8K-85K/年 更多資訊 索取報價 **SQLite Consortium 會員資格。**包含現場拜訪與存取所有專有延伸功能與測試套件的高階企業支援。 費用:$120K/年 更多資訊 索取報價 授權 (詳情如下) 5. **SQLite 授權。**SQLite 原始碼的標題保證與永久使用權。 $6000 一次性費用 更多資訊 購買 6. **SQLite 加密延伸功能 (SEE) 原始碼。**可取代公有領域 SQLite C 原始碼的插入式替換,具有讀取/寫入 AES 加密資料庫的額外功能。 $2000 一次性費用 更多資訊 購買 7. **SQLite 加密延伸功能 (SEE) for System.Data.SQLite。**用於搭配公有 System.Data.SQLite NuGet 套件的授權證書檔案,允許使用 SQLite 加密延伸功能。 $2500/年 更多資訊 購買 8. 壓縮且加密的唯讀資料庫 (CEROD)。 可取代公開領域 SQLite 原始碼,並具備額外功能,可讀取已壓縮且加密的資料庫。 $2000 一次性費用 更多資訊 立即購買! 9. ZIPVFS 讀寫壓縮資料庫擴充功能。 ZIPVFS 擴充功能會在資料寫入磁碟時自動壓縮並加密資料,並在讀取時解壓縮並解密資料。 $4000 一次性費用 更多資訊 立即購買! **SQLite 授權。**SQLite 原始碼的標題保證與永久使用權。 費用:$6000 一次性費用 更多資訊 購買 **SQLite 加密延伸功能 (SEE) 原始碼。**可取代公有領域 SQLite C 原始碼的插入式替換,具有讀取/寫入 AES 加密資料庫的額外功能。 費用:$2000 一次性費用 更多資訊 購買 **SQLite 加密延伸功能 (SEE) for System.Data.SQLite。**用於搭配公有 System.Data.SQLite NuGet 套件的授權證書檔案,允許使用 SQLite 加密延伸功能。 費用:$2500/年 更多資訊 購買 壓縮且加密的唯讀資料庫 (CEROD)。 可取代公開領域 SQLite 原始碼,並具備額外功能,可讀取已壓縮且加密的資料庫。 費用:$2000 一次性費用 更多資訊 立即購買! ZIPVFS 讀寫壓縮資料庫擴充功能。 ZIPVFS 擴充功能會在資料寫入磁碟時自動壓縮並加密資料,並在讀取時解壓縮並解密資料。 費用:$4000 一次性費用 更多資訊 立即購買! 特殊服務 (以下詳細說明) 10. TH3 測試支援。 TH3 測試架構 是 SQLite 的航空級測試套件。SQLite 開發人員可以根據客戶規格,在特殊硬體和/或使用特殊編譯時期選項上執行 TH3,無論是遠端或客戶端。此服務的定價依需求而定,逐案報價。 來電 更多資訊 索取報價 TH3 測試支援。 TH3 測試架構 是 SQLite 的航空級測試套件。SQLite 開發人員可以根據客戶規格,在特殊硬體和/或使用特殊編譯時期選項上執行 TH3,無論是遠端或客戶端。此服務的定價依需求而定,逐案報價。 費用:來電 更多資訊 索取報價 進一步資訊 SQLite 是免費的,而且運作良好。大多數人使用 SQLite,而不需要任何類型的授權或支援。 可在公開的 SQLite 論壇 上獲得免費的 SQLite 支援。論壇由龐大的專家社群監控,包括 SQLite 核心開發團隊,他們能夠解決您可能會遇到的任何 SQLite 問題。 如果您不希望在公開論壇上討論您的問題,年度維護訂閱或「AMS」可能更能滿足您的需求。AMS 讓您有權直接透過 SQLite 開發人員獲得私人電子郵件支援。AMS 的支援等級與公開論壇提供的支援類似,但 AMS 包含單方面的保密承諾,因此透過 AMS,您可以私下與 SQLite 開發人員討論您的問題,而不用讓全世界都看到。AMS 每年的費用為 1500 美元。 對於有更進階支援需求的使用者,可以選擇技術支援合約。技術支援合約會根據每個客戶的個別需求進行客製化,但通常會包含直接電話支援,以及優先處理問題和錯誤。保證回應時間可作為選項提供。技術支援的費用會有所不同,但通常在每年 8000 美元到 35000 美元之間。 如果 SQLite 對您的公司來說是「任務關鍵」的,那麼您可能想要成為SQLite 聯盟成員。SQLite 聯盟是由贊助 SQLite 持續開發的公司所組成的合作組織,以換取企業級技術支援、SQLite 開發人員的現場拜訪、無限制存取所有授權產品,以及強有力的保證,確保 SQLite 將會持續留在公有領域,保持免費和獨立,而且不會受到競爭對手的控制。 軟體授權 SQLite 原始碼屬於公有領域,任何人都可以免費使用,且不限於任何目的。不需要任何授權。但是,有些使用者希望取得授權,以便他們可以取得所有權保證,或者只是因為他們的公司律師說他們需要。針對此目的,提供核心 SQLit...",
+            "passage": "專業支援與延伸產品。 可在公開的 SQLite 論壇 上獲得免費的 SQLite 支援。論壇由龐大的專家社群監控,包括 SQLite 核心開發團隊,他們能夠解決您可能會遇到的任何 SQLite 問題。 如果您不希望在公開論壇上討論您的問題,年度維護訂閱或「AMS」可能更能滿足您的需求。AMS 讓您有權直接透過 SQLite 開發人員獲得私人電子郵件支援。AMS 的支援等級與公開論壇提供的支援類似,但 AMS 包含單方面的保密承諾,因此透過 AMS,您可以私下與 SQLite 開發人員討論您的問題,而不用讓全世界都看到。AMS 每年的費用為 1500 美元。 對於有更進階支援需求的使用者,可以選擇技術支援合約。技術支援合約會根據每個客戶的個別需求進行客製化,但通常會包含直接電話支援,以及優先處理問題和錯誤。保證回應時間可作為選項提供。技術支援的費用會有所不同,但通常在每年 8000 美元到 35000 美元之間。 如果 SQLite 對您的公司來說是「任務關鍵」的,那麼您可能想要成為SQLite 聯盟成員。SQLite 聯盟是由贊助 SQLite 持續開發的公司所組成的合作組織,以換取企業級技術支援、SQLite 開發人員的現場拜訪、無限制存取所有授權產品,以及強有力的保證,確保 SQLite 將會持續留在公有領域,保持免費和獨立,而且不會受到競爭對手的控制。 軟體授權 SQLite 原始碼屬於公有領域,任何人都可以免費使用,且不限於任何目的。不需要任何授權。但是,有些使用者希望取得授權,以便他們可以取得所有權保證,或者只是因為他們的公司律師說他們需要。針對此目的,提供核心 SQLite 原始碼的永久授權和所有權保證。 SQLite 加密擴充套件 (SEE)、ZIPVFS 擴充套件 和 壓縮和加密唯讀資料庫 (CEROD) 擴充套件是 SQLite 的增強版本,可處理加密和/...",
+            "date": "2023/10/10 17:29:48",
+            "retrieved_at": "2026-10-24T09:20:16.796734+00:00",
+            "site": "sqlite.dev.org.tw",
+            "request_id": "d93f160c-71ce-49b5-a341-1433b5ecd579",
+            "query_ids": [
+              "Q1"
+            ],
+            "publisher_group": "org.tw",
+            "independence_group": "org.tw",
+            "is_repost": false,
+            "independence_note": "仅按域名与内容相似度分组，不保证真正独立",
+            "source_type": "公开网页 · 身份待核验",
+            "primary": false,
+            "digest": "6e261c9a61f4ef3889c25a8ed138e385cc7976550098ba20cab2ce53ba806c02",
+            "level": "搜索摘要/内容 · 未核验原文",
+            "url_status": "未检查",
+            "http_status": 0,
+            "page_text": "",
+            "fetched_at": ""
+          },
+          {
+            "id": "S8",
+            "title": "SQLite 的獨特功能",
+            "url": "https://sqlite.dev.org.tw/different.html",
+            "domain": "sqlite.dev.org.tw",
+            "text": "SQLite 的獨特功能 本頁重點介紹 SQLite 的一些非比尋常的特性,這些特性使 SQLite 與許多其他 SQL 資料庫引擎不同。 零設定 SQLite 在使用前不需要「安裝」。沒有「設定」程序。沒有需要啟動、停止或設定的伺服器行程。不需要管理員建立新的資料庫執行個體或指派使用者存取權限。SQLite 不使用設定檔。不需要執行任何操作來告知系統 SQLite 正在執行。系統崩潰或電源故障後無需進行任何復原操作。沒有任何需要疑難排解的地方。 SQLite 即可使用。 其他更常見的資料庫引擎在啟動後運行良好。但進行初始安裝和設定可能會非常複雜。 無伺服器 (另請參閱無伺服器文件頁面。) 大多數 SQL 資料庫引擎都是作為單獨的伺服器行程來實作的。想要存取資料庫的程式使用某種行程間通訊(通常是 TCP/IP)與伺服器通訊,以將請求傳送到伺服器並接收結果。SQLite 並非如此運作。使用 SQLite 時,想要存取資料庫的行程會直接從磁碟上的資料庫檔案讀取和寫入。沒有中間伺服器行程。 無伺服器架構有利有弊。主要優點是不需要安裝、設定、初始化、管理和疑難排解單獨的伺服器行程。這是 SQLite 成為「零設定」資料庫引擎的原因之一。使用 SQLite 的程式在執行前不需要管理支援來設定資料庫引擎。任何能夠存取磁碟的程式都能夠使用 SQLite 資料庫。 另一方面,使用伺服器的資料庫引擎可以更好地防護用戶端應用程式中的錯誤 - 用戶端中的雜散指標不會損壞伺服器上的記憶體。而且由於伺服器是單個持續性行程,因此它能夠更精確地控制資料庫存取,從而實現更細緻的鎖定和更好的並行性。 大多數 SQL 資料庫引擎都是基於用戶端/伺服器架構的。在無伺服器架構的資料庫引擎中,據作者所知,SQLite 是唯一允許多個應用程式同時存取同一個資料庫的引擎。 單一資料庫檔案 SQLite 資料庫是一個單獨的普通磁碟檔案,可以位於目錄階層結構中的任何位置。如果 SQLite 可以讀取磁碟檔案,那麼它就可以讀取資料庫中的任何內容。如果磁碟檔案及其目錄是可寫入的,那麼 SQLite 可以更改資料庫中的任何內容。資料庫檔案可以輕鬆複製到 USB 隨身碟或透過電子郵件共用。 其他 SQL 資料庫引擎傾向於將資料儲存為大量的檔案集合。通常這些檔案位於只有資料庫引擎本身才能存取的標準位置。這使得資料更安全,但也使得存取更加困難。一些 SQL 資料庫引擎提供直接寫入磁碟並繞過檔案系統的選項。這提高了效能,但代價是相當大的設定和維護複雜性。 穩定的跨平台資料庫檔案 SQLite 的檔案格式具備跨平台特性。在一台機器上寫入的資料庫檔案可以複製到不同架構的另一台機器上使用。大端序或小端序、32 位元或 64 位元都無關緊要。所有機器都使用相同的檔案格式。此外,開發人員承諾保持檔案格式的穩定性和向下相容性,因此較新版本的 SQLite 可以讀寫較舊的資料庫檔案。 大多數其他 SQL 資料庫引擎在從一個平台遷移到另一個平台時,以及通常在升級到較新版本的軟體時,都需要您傾印和還原資料庫。 精簡 經過大小最佳化後,啟用所有功能的完整 SQLite 函式庫大小不到 1MB(在 ix86 上使用 GNU 編譯器套件中的「size」工具測量)。可以在編譯時停用不需要的功能,以進一步縮減函式庫的大小。 大多數其他 SQL 資料庫引擎都比這大得多。IBM 宣稱其最近發布的 CloudScape 資料庫引擎「僅」是一個 2MB 的 jar 檔案——即使壓縮後也比 SQLite 大一個數量級!Firebird 宣稱其用戶端函式庫只有 350KB。這與 SQLite 的大小相同,甚至不包含資料庫引擎。Oracle 的 Berkeley DB 函式庫為 450KB,它省略了 SQL 支援,僅為程式設計師提供簡單的鍵/值對。 顯式類型 大多數 SQL 資料庫引擎使用靜態類型。資料類型與表格中的每一欄關聯,並且只允許將特定資料類型的值儲存在該欄中。SQLite 放寬了此限制,它使用顯式類型。在顯式類型中,資料類型是值本身的屬性,而不是儲存值的欄的屬性。因此,SQLite 允許使用者將任何資料類型的任何值儲存到任何欄中,而不管該欄的宣告類型為何。(此規則有一些例外:INTEGER PRIMARY KEY 欄只能儲存整數。並且 SQLite 會嘗試在可能的情況下將值強制轉換為欄的宣告資料類型。) 據我們所知,SQL 語言規範允許使用顯式類型。儘管如此,大多數其他 SQL 資料庫引擎都是靜態類型的,因此有些人認為使用顯式類型是 SQLite 中的一個錯誤。但 SQLite 的作者堅信這是一個功能。在 SQLite 中使用顯式類型是一個深思熟慮的設計決策,實踐證明,它使 SQLite 更可靠且更易於使用,尤其是在與動態類型程式語言(例如 Tcl 和 Python)結合使用時。 可變長度記錄 大多數其他 SQL 資料庫引擎會為大多數表格中的每一列分配固定數量的磁碟空間。它們使用特殊技巧來處理長度可能變化很大的 BLOB 和 CLOB。但對於大多數表格,如果您將一欄宣告為 VARCHAR(100),則無論您實際儲存在該欄中的資訊量有多少,資料庫引擎都會分配 100 個位元組的磁碟空間。 相反,SQLite 只使用實際需要的磁碟空間來儲存列中的資訊。如果您在 VARCHAR(100) 欄中儲存單個字元,則只會消耗一個位元組的磁碟空間。(實際上是兩個位元組——在每一欄的開頭有一些額外開銷,用於記錄其資料類型和長度。) SQLite 使用可變長度記錄有許多優點。顯然,它會產生更小的資料庫檔案。它還可以使資料庫運行得更快,因為需要在磁碟之間移動的資訊更少。而且,使用可變長度記錄使 SQLite 可以採用顯式類型而不是靜態類型。 可讀的原始程式碼 SQLite 的原始程式碼設計為可讀性高,一般程式設...",
+            "passage": "SQLite 的獨特功能。資料庫使用者可以透過在查詢前面加上 虛擬機器語言 的 EXPLAIN 關鍵字來檢視這個程式。 在 SQLite 中使用虛擬機器對函式庫的開發帶來很大的好處。虛擬機器在 SQLite 的前端(解析 SQL 陳述式並產生虛擬機器碼的部分)和後端(執行虛擬機器碼並計算結果的部分)之間提供了一個清晰、明確的連接點。虛擬機器允許開發人員以易於閱讀的形式清楚地看到 SQLite 嘗試對其編譯的每個陳述式執行哪些操作,這對除錯有極大的幫助。根據編譯方式,SQLite 還能夠追蹤虛擬機器的執行 - 輸出每個虛擬機器指令及其執行時的結果。 公共領域 SQLite 的原始碼屬於公共領域。核心原始碼的任何部分均未主張版權。(說明文件和測試程式碼則不同 - 某些說明文件和測試邏輯受開放原始碼授權的規範。)所有 SQLite 核心軟體的貢獻者都已簽署了明確放棄程式碼版權的聲明。這意味著任何人都可以合法地對 SQLite 原始碼進行任何操作。 還有其他 SQL 資料庫引擎具有自由的授權,允許廣泛且自由地使用程式碼。但這些其他引擎仍然受版權法的約束。SQLite 的不同之處在於,版權法根本不適用於它。 其他 SQL 資料庫引擎的原始碼檔案通常以描述您檢視和複製該檔案的合法權利的註釋開頭。SQLite 原始碼不包含授權,因為它不受版權的約束。SQLite 原始碼沒有授權,而是提供祝福: 願你行善勿作惡 願你寬恕自己並寬恕他人 願你樂於分享,永不貪得無厭 SQL 語言擴充功能 SQLite 提供了許多其他資料庫引擎通常沒有的 SQL 語言增強功能。上述已提及 EXPLAIN 關鍵字和顯式類型。SQLite 還提供了一些陳述式,例如 REPLACE 和 ON CONFLICT 子句,可以增強對約束衝突解決的控制。SQLite 支援 ATTACH 和 DETACH 命令,允許在同一個查...",
+            "date": "2024/05/08 11:54:12",
+            "retrieved_at": "2026-10-24T09:20:16.796734+00:00",
+            "site": "sqlite.dev.org.tw",
+            "request_id": "d93f160c-71ce-49b5-a341-1433b5ecd579",
+            "query_ids": [
+              "Q1"
+            ],
+            "publisher_group": "org.tw",
+            "independence_group": "org.tw",
+            "is_repost": false,
+            "independence_note": "仅按域名与内容相似度分组，不保证真正独立",
+            "source_type": "公开网页 · 身份待核验",
+            "primary": false,
+            "digest": "c1b67fc6ab9e9c29027908ebd2e41c4eceb5033572017527ba25038879063421",
+            "level": "搜索摘要/内容 · 未核验原文",
+            "url_status": "未检查",
+            "http_status": 0,
+            "page_text": "",
+            "fetched_at": ""
+          }
+        ]
+      }
+    },
+    {
+      "sequence": 5,
+      "kind": "counter",
+      "message": "模板补查：查找限制与例外（非智能语义反证）。",
+      "at": "2026-10-24T09:20:17.555504+00:00",
+      "elapsed_ms": 759,
+      "data": {
+        "adaptive": false
+      }
+    },
+    {
+      "sequence": 6,
+      "kind": "search_start",
+      "message": "Q2 · 查找限制、例外或前提不成立的材料",
+      "at": "2026-10-24T09:20:17.555586+00:00",
+      "elapsed_ms": 759,
+      "data": {
+        "id": "Q2",
+        "query": "我看到资料说 SQLite 是公有领域，也有资料说使用 SQLite 要买许可证。这两种说法 限制 例外 更正 不支持",
+        "purpose": "counter",
+        "reason": "查找限制、例外或前提不成立的材料",
+        "claim_ids": [
+          "C1"
+        ],
+        "round": 2,
+        "status": "running"
+      }
+    },
+    {
+      "sequence": 7,
+      "kind": "search_result",
+      "message": "Q2 · 返回 8 条，新增 4 个来源。",
+      "at": "2026-10-24T09:20:18.176928+00:00",
+      "elapsed_ms": 1381,
+      "data": {
+        "id": "Q2",
+        "query": "我看到资料说 SQLite 是公有领域，也有资料说使用 SQLite 要买许可证。这两种说法 限制 例外 更正 不支持",
+        "purpose": "counter",
+        "reason": "查找限制、例外或前提不成立的材料",
+        "claim_ids": [
+          "C1"
+        ],
+        "round": 2,
+        "status": "done",
+        "result_count": 8,
+        "new_sources": 4,
+        "sources": [
+          {
+            "id": "S9",
+            "title": "SQLite Copyright",
+            "url": "https://www.sqlite.org/copyright.html",
+            "domain": "www.sqlite.org",
+            "text": "SQLite Is Public Domain SQLite。SQLite Is Public Domain SQLite is in the Public Domain All of the code and documentation in SQLite has been dedicated to the public domain by the authors. All code authors, and representatives of the companies they work for, have signed affidavits dedicating their contributions to the public domain and originals of those signed affidavits are stored in a firesafe at the main offices of Hwaci. All contributors are citizens of countries that allow creative works to be dedicated into the public domain. Anyone is free to copy, modify, publish, use, compile, sell, or distribute the original SQLite code, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means. The previous paragraph applies to the deliverable code and documentation in SQLite - those parts of the SQLite library that you actually bundle and ship with a larger application. Some scripts used as part of the build process (for example the \"configure\" scripts generated by autoconf) might fall under other open-source licenses. Nothing from these build scripts ever reaches the final deliverable SQLite library, however, and so the licenses associated with those scripts should not be a factor in assessing your rights to copy and use the SQLite library. All of the deliverable code in SQLite has been written from scratch. No code has been taken from other projects or from the open internet. Every line of code can be traced back to its original author, and all of those authors have public domain dedications on file. So the SQLite code base is clean and is uncontaminated with licensed code from other projects. Open-Source, not Open-Contribution SQLite is open-source, meaning that you can make as many copies of it as you want and do whatever you want with those copies, without limitation. But SQLite is not open-contribution. In order to keep SQLite in the public domain and ensure that the code does not become contaminated with proprietary or licensed content, the project does not accept patches from people who have not submitted an affidavit dedicating their contribution into the public domain. All of the code in SQLite is original, having been written specifically for use by SQLite. No code has been copied from unknown sources on the internet. Warranty of Title SQLite is in the public domain and does not require a license. Even so, some organizations want legal proof of their right to use SQLite. Circumstances where this...",
+            "passage": "Small. Fast. Reliable. Choose any three. SQLite is in the All of the code and documentation in SQLite has been dedicated to the public domain by the authors.All code authors, and representatives of the companies they work for,have signed affidavits dedicating their contributions tothe public domain and originals ofthose signed affidavits are stored in a firesafe at the main officesof Hwaci . All contributors are citizensof countries that allow creative works to be dedicated into the publicdomain.Anyone is free to copy, modify, publish, use, compile, sell, or distributethe original SQLite code, either in source code form or as a compiled binary,for any purpose, commercial or non-commercial, and by any means. The previous paragraph applies to the deliverable code and documentationin SQLite -...",
+            "date": "2025/04/16 13:13:29",
+            "retrieved_at": "2026-10-24T09:20:17.555838+00:00",
+            "site": "www.sqlite.org",
+            "request_id": "f1000b8d-a12d-49f2-bc55-0a143d333925",
+            "query_ids": [
+              "Q2"
+            ],
+            "publisher_group": "sqlite.org",
+            "independence_group": "sqlite.org",
+            "is_repost": false,
+            "independence_note": "仅按域名与内容相似度分组，不保证真正独立",
+            "source_type": "相关项目一手域名",
+            "primary": true,
+            "digest": "fe6fa22e478f01311e8f816002c6ae5d9848fbf570963eac099d470712b4396b",
+            "level": "搜索摘要/内容 · 未核验原文",
+            "url_status": "未检查",
+            "http_status": 0,
+            "page_text": "",
+            "fetched_at": ""
+          },
+          {
+            "id": "S10",
+            "title": "SQLite Documentation",
+            "url": "https://www.sqlite.org/docsrc/artifact/b698824cea9b5037",
+            "domain": "www.sqlite.org",
+            "text": "Artifact b698824cea9b503751bf7380a98883a264d600a0: File copyright.tcl — part of check-in [6dc1e6a1f3] at 2007-11-12 03:45:06 on branch trunk — Initial check-in of documentation sources. (user: drh, size: 4455) [annotate] [blame] [check-ins using] set rcsid {$Id: copyright.tcl,v 1.7 2007/05/06 21:20:43 drh Exp $} source common.tcl header {SQLite Copyright} puts { SQLite Copyright SQLite is in the Public Domain All of the deliverable code in SQLite has been dedicated to the public domain by the authors. All code authors, and representatives of the companies they work for, have signed affidavits dedicating their contributions to the public domain and originals of those signed affidavits are stored in a firesafe at the main offices of Hwaci. Anyone is free to copy, modify, publish, use, compile, sell, or distribute the original SQLite code, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means. The previous paragraph applies to the deliverable code in SQLite - those parts of the SQLite library that you actually bundle and ship with a larger application. Portions of the documentation and some code used as part of the build process might fall under other licenses. The details here are unclear. We do not worry about the licensing of the documentation and build code so much because none of these things are part of the core deliverable SQLite library. All of the deliverable code in SQLite has been written from scratch. No code has been taken from other projects or from the open internet. Every line of code can be traced back to its original author, and all of those authors have public domain dedications on file. So the SQLite code base is clean and is uncontaminated with licensed code from other projects. Obtaining An Explicit License To Use SQLite Even though SQLite is in the public domain and does not require a license, some users want to obtain a license anyway. Some reasons for obtaining a license include: You are using SQLite in a jurisdiction that does not recognize the public domain. You are using SQLite in a jurisdiction that does not recognize the right of an author to dedicate their work to the public domain. You want to hold a tangible legal document as evidence that you have the legal right to use and distribute SQLite. Your legal department tells you that you have to purchase a license. If you feel like you really have to purchase a license for SQLite, Hwaci, the company that employs the arc...",
+            "passage": "Documentation Source Text。Artifact b698824cea9b503751bf7380a98883a264d600a0: File copyright.tcl — part of check-in [6dc1e6a1f3] at 2007-11-12 03:45:06 on branch trunk — Initial check-in of documentation sources. (user: drh, size: 4455) [annotate] [blame] [check-ins using] set rcsid {$Id: copyright.tcl,v 1.7 2007/05/06 21:20:43 drh Exp $} source common.tcl header {SQLite Copyright} puts { SQLite Copyright SQLite is in the Public Domain All of the deliverable code in SQLite has been dedicated to the public domain by the authors. All code authors, and representatives of the companies they work for, have signed affidavits dedicating their contributions to the public domain and originals of those signed affidavits are stored in a firesafe at the main offices of Hwaci. Anyone is free to copy, mo...",
+            "date": "未知",
+            "retrieved_at": "2026-10-24T09:20:17.555838+00:00",
+            "site": "www.sqlite.org",
+            "request_id": "f1000b8d-a12d-49f2-bc55-0a143d333925",
+            "query_ids": [
+              "Q2"
+            ],
+            "publisher_group": "sqlite.org",
+            "independence_group": "sqlite.org",
+            "is_repost": false,
+            "independence_note": "仅按域名与内容相似度分组，不保证真正独立",
+            "source_type": "相关项目一手域名",
+            "primary": true,
+            "digest": "b08998c915c938781f65548455e5d1dd8eb49bdb051b67b0127310769ee12fa5",
+            "level": "搜索摘要/内容 · 未核验原文",
+            "url_status": "未检查",
+            "http_status": 0,
+            "page_text": "",
+            "fetched_at": ""
+          },
+          {
+            "id": "S11",
+            "title": "SQLite Licensing for Commercial Use and Code Redistribution - SQLite Help Docs",
+            "url": "https://sqlite.work/?p=8268",
+            "domain": "sqlite.work",
+            "text": "SQLite Licensing for Commercial Use and Code Redistribution SQLite’s Public Domain Status and Its Implications for Commercial Applications SQLite is a widely-used, lightweight, and serverless relational database management system (RDBMS) that is released into the public domain. This means that SQLite is free for anyone to use, modify, and distribute without any restrictions. The public domain status of SQLite makes it an attractive choice for developers who are building applications that require an embedded database solution. However, the public domain nature of SQLite does not automatically extend to the applications or code that incorporate it. This distinction is crucial for developers who plan to commercialize their software, as it raises questions about licensing, redistribution rights, and intellectual property protection. When a developer integrates SQLite into their application, the licensing of the application itself remains independent of SQLite’s public domain status. The developer retains full control over how their code is licensed, whether it is released under a proprietary license, an open-source license, or any other licensing model. This separation allows developers to commercialize their applications without worrying about SQLite’s licensing terms affecting their ability to control the distribution and resale of their code. However, the public domain status of SQLite also means that anyone who obtains a copy of the database engine can use, modify, and redistribute it without any restrictions. This includes the version of SQLite that is bundled with a commercial application. Therefore, while the developer’s code is protected by their chosen license, the SQLite component remains freely redistributable. This can lead to confusion, especially when it comes to understanding the rights of end-users who purchase a commercial application that includes SQLite. The Relationship Between SQLite Licensing and Application Licensing The core issue revolves around the relationship between SQLite’s public domain status and the licensing of the application that incorporates it. SQLite’s public domain status means that it is not governed by any specific license, and it is free from copyright restrictions. This allows developers to use SQLite in their applications without needing to comply with any licensing terms or obligations. However, the application itself, including the code written by the developer, is subject to the licensing terms chosen by the deve...",
+            "passage": "SQLite Licensing for Commercial Use and Code Redistribution - SQLite Help Docs SQLite Help Docs。SQLite Licensing for Commercial Use and Code Redistribution SQLite’s Public Domain Status and Its Implications for Commercial Applications SQLite is a widely-used, lightweight, and serverless relational database management system (RDBMS) that is released into the public domain. This means that SQLite is free for anyone to use, modify, and distribute without any restrictions. The public domain status of SQLite makes it an attractive choice for developers who are building applications that require an embedded database solution. However, the public domain nature of SQLite does not automatically extend to the applications or code that incorporate it. This distinction is crucial for developers who pl...",
+            "date": "2025/03/20 00:00:00",
+            "retrieved_at": "2026-10-24T09:20:17.555838+00:00",
+            "site": "sqlite.work",
+            "request_id": "f1000b8d-a12d-49f2-bc55-0a143d333925",
+            "query_ids": [
+              "Q2"
+            ],
+            "publisher_group": "sqlite.work",
+            "independence_group": "sqlite.work",
+            "is_repost": false,
+            "independence_note": "仅按域名与内容相似度分组，不保证真正独立",
+            "source_type": "公开网页 · 身份待核验",
+            "primary": false,
+            "digest": "3c4d1b870481fcdca3907e80e0867b6cd72d8c7ab90b0fc50fb42160efa9dd72",
+            "level": "搜索摘要/内容 · 未核验原文",
+            "url_status": "未检查",
+            "http_status": 0,
+            "page_text": "",
+            "fetched_at": ""
+          },
+          {
+            "id": "S12",
+            "title": "Licensing Information",
+            "url": "https://docs.oracle.com/en/industries/hospitality/cruise/shipboard/silverwhere-9.1/swslg/c_licensing_guide_licensing_information.htm",
+            "domain": "docs.oracle.com",
+            "text": "2 Licensing Information This chapter provides the Oracle Hospitality Cruise SilverWhere: Description of products Prerequisite products Entitled products and restricted use licenses Prerequisite products, entitled products, and restricted use licenses do not apply to Oracle Hospitality Cloud products. Table 2-1 Oracle Hospitality Cruise SilverWhere Hospitality Product Subproduct Licensing Information Oracle Hospitality Cruise SilverWhere Oracle Hospitality Cruise SilverWhere Shipside Base Part Number: L101375 Product Editions and Permitted Features Base license purchased once for the entire SilverWhere. Prerequisite Products N/A Entitled Products and Restricted Use Licenses N/A Oracle Hospitality Cruise SilverWhere Oracle Hospitality Cruise SilverWhere Web Service Part Number: L101348 Product Editions and Permitted Features Base license purchased once for the entire SilverWhere. Prerequisite Products Oracle Hospitality Cruise Foundation Web Service Entitled Products and Restricted Use Licenses N/A Oracle Hospitality Cruise SilverWhere Oracle Hospitality Cruise SilverWhere Shoreside Base Part Number: L101543 Product Editions and Permitted Features Base license purchased once for the entire SilverWhere. Prerequisite Products N/A Entitled Products and Restricted Use Licenses N/A Oracle Hospitality Cruise SilverWhere Oracle Hospitality Cruise SilverWhere Shoreside Web Service Part Number: L101544 Product Editions and Permitted Features Base license purchased once for the entire SilverWhere. Prerequisite Products Oracle Hospitality Cruise SilverWhere Shoreside Base Entitled Products and Restricted Use Licenses N/A Third-Party Notices and/or Licenses Commercial Software No commercial software products or components requiring attribution exist for this release. Open Source Software or Other Separately Licensed Software Required notices for open source or other separately licensed software products or components distributed in SilverWhere are identified in the following table along with the applicable licensing information. Additional notices and/or licenses may be found in the included documentation or readme files of the individual third party open source software. Table 2-2 Third-Party Notices and Licenses Provider Component(s) Licensing Information The Legion Of The Bouncy Castle Bouncy Castle C# API 1.9.0 https://github.com/bcgit/bc-csharp/blob/master/crypto/License.html The Bouncy Castle Cryptographic C#® API License: The Bouncy Castle License Copyright (c) 2...",
+            "passage": "Licensing Information Oracle Help Center。SQLite.dll == License SQLite Is Public Domain SQLite is in the Public Domain All of the code and documentation in SQLite has been dedicated to the public domain by the authors. All code authors, and representatives of the companies they work for, have signed affidavits dedicating their contributions to the public domain and originals of those signed affidavits are stored in a firesafe at the main offices of Hwaci. All contributors are citizens of countries that allow creative works to be dedicated into the public domain. Anyone is free to copy, modify, publish, use, compile, sell, or distribute the original SQLite code, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means. The previous p...",
+            "date": "2024/03/19 23:19:49",
+            "retrieved_at": "2026-10-24T09:20:17.555838+00:00",
+            "site": "Oracle Help Center",
+            "request_id": "f1000b8d-a12d-49f2-bc55-0a143d333925",
+            "query_ids": [
+              "Q2"
+            ],
+            "publisher_group": "oracle.com",
+            "independence_group": "oracle.com",
+            "is_repost": false,
+            "independence_note": "仅按域名与内容相似度分组，不保证真正独立",
+            "source_type": "公开网页 · 身份待核验",
+            "primary": false,
+            "digest": "c83a49eaf109190313b014501b7877c1f071dcd39d422f7c74d5c86f56802da6",
+            "level": "搜索摘要/内容 · 未核验原文",
+            "url_status": "未检查",
+            "http_status": 0,
+            "page_text": "",
+            "fetched_at": ""
+          }
+        ]
+      }
+    },
+    {
+      "sequence": 8,
+      "kind": "followup",
+      "message": "冲突或证据缺口未关闭，执行有目标的补查。",
+      "at": "2026-10-24T09:20:18.177192+00:00",
+      "elapsed_ms": 1381,
+      "data": {}
+    },
+    {
+      "sequence": 9,
+      "kind": "search_start",
+      "message": "Q3 · 核对时间、版本和缺失条件",
+      "at": "2026-10-24T09:20:18.177260+00:00",
+      "elapsed_ms": 1381,
+      "data": {
+        "id": "Q3",
+        "query": "我看到资料说 SQLite 是公有领域，也有资料说使用 SQLite 要买许可证。这两种说法是否冲突，商业使用是否必须付费 发布时间 版本 原始出处",
+        "purpose": "followup",
+        "reason": "核对时间、版本和缺失条件",
+        "claim_ids": [
+          "C1"
+        ],
+        "round": 3,
+        "status": "running"
+      }
+    },
+    {
+      "sequence": 10,
+      "kind": "search_result",
+      "message": "Q3 · 返回 8 条，新增 4 个来源。",
+      "at": "2026-10-24T09:20:18.766067+00:00",
+      "elapsed_ms": 1970,
+      "data": {
+        "id": "Q3",
+        "query": "我看到资料说 SQLite 是公有领域，也有资料说使用 SQLite 要买许可证。这两种说法是否冲突，商业使用是否必须付费 发布时间 版本 原始出处",
+        "purpose": "followup",
+        "reason": "核对时间、版本和缺失条件",
+        "claim_ids": [
+          "C1"
+        ],
+        "round": 3,
+        "status": "done",
+        "result_count": 8,
+        "new_sources": 4,
+        "sources": [
+          {
+            "id": "S13",
+            "title": "Artifact Content",
+            "url": "https://www.sqlite.org/docsrc/artifact/55bdd2138e6d99f8",
+            "domain": "www.sqlite.org",
+            "text": "Documentation Source Text Artifact Content Artifact 55bdd2138e6d99f8f1e9d5d07c90ce96f67ac7d9: File pages/copyright.in — part of check-in [419389e585] at 2013-05-28 13:23:04 on branch trunk — Clarify the license for SQLite documentation. (user: drh size: 4325) SQLite Copyright SQLite Copyright SQLite is in the [http://en.wikipedia.org/wiki/Public_Domain | Public Domain] All of the code and documentation in SQLite has been dedicated to the [http://en.wikipedia.org/wiki/Public_Domain|public domain] by the authors. All code authors, and representatives of the companies they work for, have signed affidavits dedicating their contributions to the public domain and originals of those signed affidavits are stored in a firesafe at the main offices of Hwaci. Anyone is free to copy, modify, publish, use, compile, sell, or distribute the original SQLite code, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means. The previous paragraph applies to the deliverable code and documentation in SQLite - those parts of the SQLite library that you actually bundle and ship with a larger application. Some scripts used as part of the build process (for example the \"configure\" scripts generated by autoconf) might fall under other open-source licenses. Nothing from these build scripts ever reaches the final deliverable SQLite library, however, and so the licenses associated with those scripts should not be a factor in assessing your rights to copy and use the SQLite library. All of the deliverable code in SQLite has been written from scratch. No code has been taken from other projects or from the open internet. Every line of code can be traced back to its original author, and all of those authors have public domain dedications on file. So the SQLite code base is clean and is uncontaminated with licensed code from other projects. Obtaining An Explicit License To Use SQLite Even though SQLite is in the public domain and does not require a license, some users want to obtain a license anyway. Some reasons for obtaining a license include: You are using SQLite in a jurisdiction that does not recognize the public domain. You are using SQLite in a jurisdiction that does not recognize the right of an author to dedicate their work to the public domain. You want to hold a tangible legal document as evidence that you have the legal right to use and distribute SQLite. Your legal department tells you that you have to pur...",
+            "passage": "Artifact Content SQLite。Documentation Source Text Artifact Content Artifact 55bdd2138e6d99f8f1e9d5d07c90ce96f67ac7d9: File pages/copyright.in — part of check-in [419389e585] at 2013-05-28 13:23:04 on branch trunk — Clarify the license for SQLite documentation. (user: drh size: 4325) SQLite Copyright SQLite Copyright SQLite is in the [http://en.wikipedia.org/wiki/Public_Domain | Public Domain] All of the code and documentation in SQLite has been dedicated to the [http://en.wikipedia.org/wiki/Public_Domain|public domain] by the authors. All code authors, and representatives of the companies they work for, have signed affidavits dedicating their contributions to the public domain and originals of those signed affidavits are stored in a firesafe at the main offices of Hwaci. Anyone is free to ...",
+            "date": "未知",
+            "retrieved_at": "2026-10-24T09:20:18.177457+00:00",
+            "site": "www.sqlite.org",
+            "request_id": "1bba501b-2487-4c36-9636-6a62fca518e1",
+            "query_ids": [
+              "Q3"
+            ],
+            "publisher_group": "sqlite.org",
+            "independence_group": "sqlite.org",
+            "is_repost": false,
+            "independence_note": "仅按域名与内容相似度分组，不保证真正独立",
+            "source_type": "相关项目一手域名",
+            "primary": true,
+            "digest": "2f51b38291c3b29a55e5b562762297ac084153b4f8a00ce42d0f99874a5878a3",
+            "level": "搜索摘要/内容 · 未核验原文",
+            "url_status": "未检查",
+            "http_status": 0,
+            "page_text": "",
+            "fetched_at": ""
+          },
+          {
+            "id": "S14",
+            "title": "Documentation Source Text",
+            "url": "https://www3.sqlite.org/docsrc/artifact/9ff8f7b6f3787657",
+            "domain": "www3.sqlite.org",
+            "text": "Artifact 9ff8f7b6f37876573debc693be69d8abb666e086: SQLite Copyright SQLite is in the [http://en.wikipedia.org/wiki/Public_Domain | Public Domain] All of the deliverable code in SQLite has been dedicated to the [http://en.wikipedia.org/wiki/Public_Domain|public domain] by the authors. All code authors, and representatives of the companies they work for, have signed affidavits dedicating their contributions to the public domain and originals of those signed affidavits are stored in a firesafe at the main offices of Hwaci. Anyone is free to copy, modify, publish, use, compile, sell, or distribute the original SQLite code, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means. The previous paragraph applies to the deliverable code in SQLite - those parts of the SQLite library that you actually bundle and ship with a larger application. Portions of the documentation and some code used as part of the build process might fall under other licenses. The details here are unclear. We do not worry about the licensing of the documentation and build code so much because none of these things are part of the core deliverable SQLite library. All of the deliverable code in SQLite has been written from scratch. No code has been taken from other projects or from the open internet. Every line of code can be traced back to its original author, and all of those authors have public domain dedications on file. So the SQLite code base is clean and is uncontaminated with licensed code from other projects. Obtaining An Explicit License To Use SQLite Even though SQLite is in the public domain and does not require a license, some users want to obtain a license anyway. Some reasons for obtaining a license include: You are using SQLite in a jurisdiction that does not recognize the public domain. You are using SQLite in a jurisdiction that does not recognize the right of an author to dedicate their work to the public domain. You want to hold a tangible legal document as evidence that you have the legal right to use and distribute SQLite. Your legal department tells you that you have to purchase a license. If you feel like you really have to purchase a license for SQLite, Hwaci, the company that employs the architect and principal developers of SQLite, will sell you one. Contributed Code In order to keep SQLite completely free and unencumbered by copyright, all new contributors to the SQLite code base are asked to dedicate their...",
+            "passage": "Documentation Source Text。Artifact 9ff8f7b6f37876573debc693be69d8abb666e086: SQLite Copyright SQLite is in the [http://en.wikipedia.org/wiki/Public_Domain | Public Domain] All of the deliverable code in SQLite has been dedicated to the [http://en.wikipedia.org/wiki/Public_Domain|public domain] by the authors. All code authors, and representatives of the companies they work for, have signed affidavits dedicating their contributions to the public domain and originals of those signed affidavits are stored in a firesafe at the main offices of Hwaci. Anyone is free to copy, modify, publish, use, compile, sell, or distribute the original SQLite code, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means. The previous paragraph applies...",
+            "date": "2009/10/26 14:52:14",
+            "retrieved_at": "2026-10-24T09:20:18.177457+00:00",
+            "site": "www3.sqlite.org",
+            "request_id": "1bba501b-2487-4c36-9636-6a62fca518e1",
+            "query_ids": [
+              "Q3"
+            ],
+            "publisher_group": "sqlite.org",
+            "independence_group": "sqlite.org",
+            "is_repost": true,
+            "independence_note": "与 S1 存在出处标注或高度相似内容，保守合并计数",
+            "source_type": "相关项目一手域名",
+            "primary": true,
+            "digest": "87d60a9382e33825188ce7e94cf7531016ab4f1a49c362c6b760d749a5649bae",
+            "level": "搜索摘要/内容 · 未核验原文",
+            "url_status": "未检查",
+            "http_status": 0,
+            "page_text": "",
+            "fetched_at": ""
+          },
+          {
+            "id": "S15",
+            "title": "What Is SQLite? The Embedded SQL Database Explained",
+            "url": "https://coddy.tech/docs/sqlite/what-is-sqlite",
+            "domain": "coddy.tech",
+            "text": "What Is SQLite? The Embedded SQL Database Explained SQLite is a serverless, file-based SQL database that runs inside your application. Here's what it actually is, how it differs from a database server, and when it shines. ▶This page includes runnable editors - edit, run, and see output instantly. SQLite Is a Database Inside Your Program Most databases you've heard of - MySQL, Postgres, SQL Server - run as a separate program. You start a server, it listens on a port, and your application connects over the network to ask it questions. SQLite throws that whole model out. SQLite is a library. You link it into your program, and it gives you a SQL database that lives in a single file on disk. There's no server, no port, no daemon, no pg_ctl start. Your application opens a file, and that file is the database. sqlite3 mydata.db That command opens (or creates) a file called mydata.db and gives you a SQL prompt. Everything you do - tables, rows, indexes - gets stored in that one file. Copy it to another machine and the database goes with it. Delete it and the database is gone. A Quick Tour of the SQL The SQL itself looks like SQL anywhere else. If you've used another database, almost everything will feel familiar: CREATE TABLE books ( id INTEGER PRIMARY KEY, title TEXT NOT NULL, author TEXT NOT NULL, year INTEGER ); INSERT INTO books (title, author, year) VALUES ('The Left Hand of Darkness', 'Ursula K. Le Guin', 1969), ('Project Hail Mary', 'Andy Weir', 2021), ('Piranesi', 'Susanna Clarke', 2020); SELECT title, year FROM books ORDER BY year DESC; query.sql ResetEraseRun 1 2 C R E A T E T A B L E b o o k s ( i d I N T Output Click Run to see query results here. Standard SQL - CREATE TABLE, INSERT, SELECT, ORDER BY. SQLite supports the parts of the SQL standard you actually use day-to-day, plus modern niceties like CTEs, window functions, and JSON functions. The differences from Postgres or MySQL are mostly around types and a few syntax quirks, which we'll cover later. What \"Embedded\" and \"Serverless\" Actually Mean Two words come up constantly with SQLite. They're worth getting straight. Embedded means SQLite runs in the same process as your application. There's no separate database process. When your Python script calls sqlite3.connect(\"data.db\"), the SQL engine is running inside your Python process, reading and writing the file directly. Serverless means there's no server to install, configure, run, secure, or back up. Compare the steps to start using a database: Po...",
+            "passage": "What Is SQLite? The Embedded SQL Database Explained Coddy。 It's not built for high write concurrency. SQLite uses file-level locking (with some clever optimizations in WAL mode), so while many readers can work in parallel, only one writer at a time gets to commit. For a single-user app or a low-traffic website, this is a non-issue. For a multi-tenant SaaS taking thousands of writes per second, it's the wrong tool. It doesn't manage users or permissions. Database access is file access - whoever can read the file can read the data. That's fine for an app that owns its own database file. It's not fine for a shared multi-tenant setup. Why You'd Choose It The trade is simplicity for some scaling headroom you may never need: Zero setup. No service to run. No version mismatch between dev and prod...",
+            "date": "2026/05/03 00:00:00",
+            "retrieved_at": "2026-10-24T09:20:18.177457+00:00",
+            "site": "coddy.tech",
+            "request_id": "1bba501b-2487-4c36-9636-6a62fca518e1",
+            "query_ids": [
+              "Q3"
+            ],
+            "publisher_group": "coddy.tech",
+            "independence_group": "coddy.tech",
+            "is_repost": false,
+            "independence_note": "仅按域名与内容相似度分组，不保证真正独立",
+            "source_type": "公开网页 · 身份待核验",
+            "primary": false,
+            "digest": "d5a451507cdf06f437e79c4caf983ee08ebd905317911fdd0f7fd51ff7eaa47e",
+            "level": "搜索摘要/内容 · 未核验原文",
+            "url_status": "未检查",
+            "http_status": 0,
+            "page_text": "",
+            "fetched_at": ""
+          },
+          {
+            "id": "S16",
+            "title": "SQLite in 2026: Pricing, Plans and Alternatives The Geeks Club",
+            "url": "https://www.thegeeksclub.com/platforms/sqlite/",
+            "domain": "www.thegeeksclub.com",
+            "text": "SQLite By SQLite · sqlite.org What SQLite is SQLite is an in-process SQL database engine that stores data within an application rather than in a separate server process. It is self-contained and requires no configuration, and each complete database is held in a single disk file that works across platforms. Its SQL features include partial indexes, indexes on expressions, JSON, common table expressions, and window functions. Transactions remain atomic, consistent, isolated, and durable even after system crashes or power failures. SQLite allows unlimited simultaneous readers, but only one writer at a time per database file. The project recommends it for device-local storage with low writer concurrency and less than a terabyte of content. SQLite is free for private or commercial use, with source code in the public domain. Downloads include source code and precompiled binaries for Android, Linux, Mac OS X, and Windows, plus WebAssembly and JavaScript bundles for web applications. A free public forum is available, along with paid private email and technical support options. SQLite is associated with Charlotte, North Carolina, and was founded in 2000. Who it suits SQLite suits developers who need a self-contained database for device-local storage, especially when writer concurrency is low. It is a less suitable fit when a database file needs simultaneous writers. Good to know, and what to watch Each database is stored in one cross-platform disk file. Supports JSON and window functions. Free for commercial or private use. Unlimited simultaneous readers. Only one writer is allowed per database file at a time. Project recommends it for less than a terabyte of content. Private email and technical support options are paid. Plans Every plan and price SQLite Free SQLite Consortium Membership $150/yr Technical Support $885/yr Annual Maintenance Subscription $1,500/yr Free plan Getting started Open the SQLite website Choose source code, a precompiled binary, or a web bundle Select the package for Android, Linux, Mac OS X, Windows, or web use Embed the engine in the application Store the database in its single disk file Limits to check The free SQLite plan is the embedded SQL database engine at no cost and permits unlimited simultaneous readers, but each database file allows only one writer at a time. SQLite recommends this model for low writer concurrency and less than a terabyte of content. The Club's review Overview SQLite puts a structured SQL database inside an appli...",
+            "passage": "SQLite in 2026: Pricing, Plans and Alternatives | The Geeks Club The Geeks Club。 applications with frequent simultaneous writes should look elsewhere or reconsider their storage design. SQLite's security guidance notes extensive fuzz testing and recommends defensive settings and lower input limits when accepting untrusted SQL. Pricing The SQLite engine costs free, with no license required for commercial or private use. That makes the core database available without a recurring charge, but it does not include the paid support and extensions below. SQLite Consortium Membership: $150 a year for premium enterprise support, on-site visits, proprietary extensions and test suites; suited to organizations that need those services. Technical Support: $885 a year for high-priority email and phone su...",
+            "date": "未知",
+            "retrieved_at": "2026-10-24T09:20:18.177457+00:00",
+            "site": "www.thegeeksclub.com",
+            "request_id": "1bba501b-2487-4c36-9636-6a62fca518e1",
+            "query_ids": [
+              "Q3"
+            ],
+            "publisher_group": "thegeeksclub.com",
+            "independence_group": "sqlite.org",
+            "is_repost": true,
+            "independence_note": "与 S5 存在出处标注或高度相似内容，保守合并计数",
+            "source_type": "公开网页 · 身份待核验",
+            "primary": false,
+            "digest": "922b42a835d04c51df34fc902c3362dfea5529e82329c62debc4eb914fff8ce8",
+            "level": "搜索摘要/内容 · 未核验原文",
+            "url_status": "未检查",
+            "http_status": 0,
+            "page_text": "",
+            "fetched_at": ""
+          }
+        ]
+      }
+    },
+    {
+      "sequence": 11,
+      "kind": "verification",
+      "message": "直接读取最多 4 个真实来源，检查可访问性与引用片段。",
+      "at": "2026-10-24T09:20:18.766302+00:00",
+      "elapsed_ms": 1970,
+      "data": {}
+    },
+    {
+      "sequence": 12,
+      "kind": "source_check",
+      "message": "S2 · 可访问",
+      "at": "2026-10-24T09:20:21.839154+00:00",
+      "elapsed_ms": 5043,
+      "data": {
+        "source_id": "S2",
+        "http_status": 200
+      }
+    },
+    {
+      "sequence": 13,
+      "kind": "source_check",
+      "message": "S3 · 连接失败/超时 · 不代表网页不存在",
+      "at": "2026-10-24T09:20:22.087984+00:00",
+      "elapsed_ms": 5292,
+      "data": {
+        "source_id": "S3",
+        "http_status": 0
+      }
+    },
+    {
+      "sequence": 14,
+      "kind": "source_check",
+      "message": "S1 · 连接失败/超时 · 不代表网页不存在",
+      "at": "2026-10-24T09:20:22.353482+00:00",
+      "elapsed_ms": 5557,
+      "data": {
+        "source_id": "S1",
+        "http_status": 0
+      }
+    },
+    {
+      "sequence": 15,
+      "kind": "source_check",
+      "message": "S4 · 连接失败/超时 · 不代表网页不存在",
+      "at": "2026-10-24T09:20:23.383864+00:00",
+      "elapsed_ms": 6588,
+      "data": {
+        "source_id": "S4",
+        "http_status": 0
+      }
+    },
+    {
+      "sequence": 16,
+      "kind": "stopped",
+      "message": "已完成直接检索、反证和必要补查；当前证据不足以消除所有不确定性。",
+      "at": "2026-10-24T09:20:23.384328+00:00",
+      "elapsed_ms": 6588,
+      "data": {
+        "search_count": 3,
+        "elapsed_ms": 6588
+      }
+    }
+  ],
+  "queries": [
+    {
+      "id": "Q1",
+      "query": "我看到资料说 SQLite 是公有领域，也有资料说使用 SQLite 要买许可证。这两种说法是否冲突，商业使用是否必须付费 官方 文档",
+      "purpose": "direct",
+      "reason": "查找直接材料与原始出处",
+      "claim_ids": [
+        "C1"
+      ],
+      "round": 1,
+      "status": "done",
+      "result_count": 8,
+      "new_sources": 8
+    },
+    {
+      "id": "Q2",
+      "query": "我看到资料说 SQLite 是公有领域，也有资料说使用 SQLite 要买许可证。这两种说法 限制 例外 更正 不支持",
+      "purpose": "counter",
+      "reason": "查找限制、例外或前提不成立的材料",
+      "claim_ids": [
+        "C1"
+      ],
+      "round": 2,
+      "status": "done",
+      "result_count": 8,
+      "new_sources": 4
+    },
+    {
+      "id": "Q3",
+      "query": "我看到资料说 SQLite 是公有领域，也有资料说使用 SQLite 要买许可证。这两种说法是否冲突，商业使用是否必须付费 发布时间 版本 原始出处",
+      "purpose": "followup",
+      "reason": "核对时间、版本和缺失条件",
+      "claim_ids": [
+        "C1"
+      ],
+      "round": 3,
+      "status": "done",
+      "result_count": 8,
+      "new_sources": 4
+    }
+  ],
+  "limitations": [
+    "主张拆解使用规则降级；未启用完整模型语义分析时不作确定事实判断。",
+    "本轮为模板查询，不是基于证据的智能反证改写；语义冲突分析与自动主张判断未启用。",
+    "来源可访问不代表内容真实；逐字匹配也不能自动证明语义蕴含，最终需要人工复核。",
+    "独立来源数是域名/内容保守分组，不是已验证的独立采访或原创材料数量。"
+  ],
+  "next_action": "打开相关项目或主办方的一手页面核对具体对象、时间和版本。",
+  "stop_reason": "已完成直接检索、反证和必要补查；当前证据不足以消除所有不确定性。",
+  "scope": "公开、非敏感、可检索信息；不包含私人数据或后台实时库存。",
+  "independent_source_count": 6,
+  "elapsed_ms": 6588,
+  "first_result_ms": 759,
+  "analysis_mode": "规则降级 · 不作语义事实判断"
+}

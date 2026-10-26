@@ -1,0 +1,24 @@
+.env
+.env.*
+!.env.example
+.yuanbao-test-status.json
+__pycache__/
+*.pyc
+data/
+node_modules/
+.venv/
+artifacts/
+.tmp/
+*.log
+*.zip
+*.tar
+*.tar.gz
+*.pem
+*.key
+*.p12
+*.pfx
+.vscode/
+.idea/
+元宝搜索-开通确认.png
+ChatGPT Image *.png
+
